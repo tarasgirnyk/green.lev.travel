@@ -1,0 +1,10 @@
+@import '../styles.css';
+
+button.audience-card{width:100%;color:inherit;text-align:left;border:0;background:transparent;font:inherit;cursor:pointer}
+.product-actions,.faq-actions{display:flex;gap:12px;flex-wrap:wrap}
+.product-actions .button-dark-outline{border-color:rgba(175,215,43,.65)}
+.honeypot{position:absolute!important;left:-10000px!important;width:1px!important;height:1px!important;opacity:0!important}
+.form-status.success{color:var(--lime-bright)}
+.form-status.error{color:#ffb4a6}
+button:disabled{cursor:wait;opacity:.72}
+@media(max-width:800px){.product-actions,.faq-actions{display:grid}.product-actions .button,.faq-actions .button{width:100%}}

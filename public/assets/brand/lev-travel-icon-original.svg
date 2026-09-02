@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title">
+  <title id="title">lev.travel — cat outline</title>
+  <rect x="2" y="2" width="60" height="60" rx="15" fill="#102D5C"/>
+  <path d="M14 43V26l7-13 10 9h2l10-9 7 13v17c-4 7-10 11-18 11S18 50 14 43Z"
+        fill="none" stroke="#FFFFFF" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="24" cy="36" r="3.5" fill="#FFFFFF"/>
+  <circle cx="40" cy="36" r="3.5" fill="#FFFFFF"/>
+</svg>

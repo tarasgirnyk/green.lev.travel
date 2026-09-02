@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="90mm" height="50mm" viewBox="0 0 900 500">
+  <defs>
+    <style>
+      @font-face{font-family:Manrope;src:url('Manrope-Regular.ttf');font-weight:400}
+      @font-face{font-family:Manrope;src:url('Manrope-SemiBold.ttf');font-weight:600}
+      @font-face{font-family:Manrope;src:url('Manrope-ExtraBold.ttf');font-weight:800}
+      text{font-family:Manrope,sans-serif}
+    </style>
+    <clipPath id="arch"><path d="M566 500V122C566 23 862 23 862 122V500Z"/></clipPath>
+    <pattern id="topo" width="184" height="112" patternUnits="userSpaceOnUse"><path d="M-35 67C14 17 78 14 118 55s79 35 113-3" fill="none" stroke="#123D2B" stroke-width="1.2" opacity=".055"/><path d="M-31 88C21 40 72 39 112 77s79 33 116 1" fill="none" stroke="#123D2B" stroke-width="1.1" opacity=".04"/></pattern>
+    <linearGradient id="photoShade" x1="0" y1="1" x2="0" y2="0"><stop stop-color="#071F17" stop-opacity=".62"/><stop offset=".58" stop-color="#071F17" stop-opacity="0"/></linearGradient>
+  </defs>
+  <rect width="900" height="500" fill="#F7F5EE"/><rect width="900" height="500" fill="url(#topo)"/>
+  <g clip-path="url(#arch)"><image href="../green-lev-cabin.png" x="566" y="23" width="296" height="477" preserveAspectRatio="xMidYMid slice"/><rect x="566" y="23" width="296" height="477" fill="url(#photoShade)"/><image href="../green-lev-mascot-cutout.png" x="590" y="55" width="252" height="430" preserveAspectRatio="xMidYMid meet"/></g>
+  <path d="M566 500V122C566 23 862 23 862 122V500" fill="none" stroke="#9BC51B" stroke-width="2" opacity=".78"/>
+  <image href="../brand/lev-travel-lion-green.svg" x="48" y="39" width="62" height="72"/>
+  <text x="126" y="82" fill="#123D2B" font-size="27" font-weight="800" letter-spacing="-1.65">green<tspan fill="#9BC51B">.</tspan>lev<tspan fill="#9BC51B">.</tspan>travel</text>
+  <circle cx="51" cy="158" r="4.5" fill="#9BC51B"/><text x="70" y="163" fill="#587063" font-size="11" font-weight="800" letter-spacing="2.3">ДЕВЕЛОПМЕНТ ВІДПОЧИНКУ</text>
+  <text x="48" y="247" fill="#123D2B" font-size="52" font-weight="800" letter-spacing="-3.2"><tspan x="48">Ваше місце</tspan><tspan x="48" dy="53">може стати</tspan><tspan x="48" dy="53" fill="#86A91B">місцем сили.</tspan></text>
+  <line x1="48" y1="421" x2="526" y2="421" stroke="#123D2B" opacity=".15"/>
+  <text x="48" y="459" fill="#123D2B" font-size="15" font-weight="600">+38 067 589 49 11</text><circle cx="279" cy="453" r="3" fill="#9BC51B"/><text x="297" y="459" fill="#123D2B" font-size="15" font-weight="600">@green.lev.travel</text>
+</svg>

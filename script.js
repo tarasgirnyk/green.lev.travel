@@ -1,0 +1,12 @@
+const header = document.querySelector('[data-header]');
+const menuToggle = document.querySelector('[data-menu-toggle]');
+const mobileMenu = document.querySelector('[data-mobile-menu]');
+const syncHeader = () => header.classList.toggle('scrolled', window.scrollY > 24);
+syncHeader();
+window.addEventListener('scroll', syncHeader, { passive: true });
+menuToggle.addEventListener('click', () => { const open = menuToggle.getAttribute('aria-expanded') === 'true'; menuToggle.setAttribute('aria-expanded', String(!open)); mobileMenu.classList.toggle('open', !open); document.body.classList.toggle('menu-open', !open); });
+mobileMenu.querySelectorAll('a').forEach((link) => link.addEventListener('click', () => { menuToggle.setAttribute('aria-expanded', 'false'); mobileMenu.classList.remove('open'); document.body.classList.remove('menu-open'); }));
+document.querySelectorAll('.faq-item button').forEach((button) => button.addEventListener('click', () => { const current = button.closest('.faq-item'); const open = current.classList.contains('active'); document.querySelectorAll('.faq-item').forEach((item) => { item.classList.remove('active'); item.querySelector('button').setAttribute('aria-expanded', 'false'); item.querySelector('button i').textContent = '+'; }); if (!open) { current.classList.add('active'); button.setAttribute('aria-expanded', 'true'); button.querySelector('i').textContent = '−'; } }));
+const observer = new IntersectionObserver((entries) => entries.forEach((entry) => { if (entry.isIntersecting) { entry.target.classList.add('visible'); observer.unobserve(entry.target); } }), { threshold: 0.12 });
+document.querySelectorAll('.reveal').forEach((element) => observer.observe(element));
+document.querySelector('[data-lead-form]').addEventListener('submit', (event) => { event.preventDefault(); const form = event.currentTarget; const status = form.querySelector('[data-form-status]'); const button = form.querySelector('button'); button.disabled = true; button.innerHTML = 'Запит прийнято <span>✓</span>'; status.textContent = 'Дякуємо! Менеджер зв’яжеться з вами найближчим часом.'; });
