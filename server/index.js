@@ -51,9 +51,20 @@ app.post('/api/leads', leadLimiter, async (request, response) => {
   }
 });
 
-app.use(express.static(dist, { maxAge: config.env === 'production' ? '7d' : 0 }));
+app.use(express.static(dist, {
+  maxAge: 0,
+  setHeaders(response, filePath) {
+    if (config.env !== 'production') return;
+    if (filePath.includes(`${path.sep}assets${path.sep}`)) {
+      response.setHeader('Cache-Control', 'public, max-age=31536000, immutable');
+      return;
+    }
+    response.setHeader('Cache-Control', 'no-cache');
+  },
+}));
 app.use((request, response, next) => {
   if (request.method === 'GET' && !request.path.startsWith('/api/')) {
+    response.setHeader('Cache-Control', 'no-cache');
     return response.sendFile(path.join(dist, 'index.html'));
   }
   return next();
