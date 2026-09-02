@@ -1,6 +1,13 @@
 @import '../styles.css';
 
 button.audience-card{width:100%;color:inherit;text-align:left;border:0;background:transparent;font:inherit;cursor:pointer}
+.ui-icon{display:block;flex:0 0 auto;max-width:none}
+.button-icon{display:inline-flex;align-items:center;justify-content:center;width:17px;height:17px;flex:0 0 17px}
+.feature-chip i{display:grid;place-items:center;width:22px;height:22px;flex:0 0 22px;line-height:0}
+.audience-icon,.round-icon,.step-top i,.proof-strip i,.faq-item button i{line-height:0}
+.metrics span{display:flex;align-items:center;gap:9px}
+.metrics i{display:grid;place-items:center;width:18px;height:18px;flex:0 0 18px;margin-right:0}
+.manager-note{display:inline-flex;align-items:center;gap:8px}
 .product-actions,.faq-actions{display:flex;gap:12px;flex-wrap:wrap}
 .product-actions .button-dark-outline{border-color:rgba(175,215,43,.65)}
 .honeypot{position:absolute!important;left:-10000px!important;width:1px!important;height:1px!important;opacity:0!important}
