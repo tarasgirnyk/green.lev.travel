@@ -1,5 +1,10 @@
 @import '../styles.css';
 
+@media(min-width:801px){
+  .hero{min-height:1110px;padding-bottom:180px}
+  .audience-panel{bottom:-154px}
+}
+
 .logo{flex:0 0 auto}
 .logo img{display:block;width:260px;height:auto;max-width:none;object-fit:contain}
 .footer-logo img{width:260px;height:auto}
