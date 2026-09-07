@@ -37,7 +37,7 @@ const steps = [
 
 function Logo({ footer = false }) {
   const file = footer ? 'green.lev.travel_white.svg' : 'green.lev.travel.svg';
-  return <a className={`logo ${footer ? 'footer-logo' : ''}`} href="#top"><img src={`${A}/brand/${file}`} alt="Green.Lev.Travel" /></a>;
+  return <a className={`logo ${footer ? 'footer-logo' : ''}`} href="#top"><img src={`${A}/brand/${file}?v=20260907`} alt="Green.Lev.Travel" /></a>;
 }
 
 function App() {
@@ -62,13 +62,14 @@ function App() {
 
   const submitLead = async (event) => {
     event.preventDefault();
+    const form = event.currentTarget;
     setStatus({ state: 'loading', message: 'Надсилаємо…' });
-    const data = Object.fromEntries(new FormData(event.currentTarget));
+    const data = Object.fromEntries(new FormData(form));
     try {
       const response = await fetch('/api/leads', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(data) });
       const result = await response.json();
       if (!response.ok) throw new Error(result.message || 'Не вдалося надіслати заявку');
-      event.currentTarget.reset();
+      form.reset();
       setStatus({ state: 'success', message: 'Дякуємо! Менеджер зв’яжеться з вами найближчим часом.' });
     } catch (error) {
       setStatus({ state: 'error', message: error.message });
@@ -86,7 +87,7 @@ function App() {
       <section className="manager-section"><div className="shell"><div className="manager-card reveal"><div className="manager-copy"><p className="section-label light">Потрібна жива розмова?</p><h2>Розкажіть про вашу ідею.<br/>Ми підкажемо <span>наступний крок.</span></h2><p>Без складних форм і довгих очікувань — залиште контакт, і менеджер зв’яжеться з вами.</p><div className="manager-actions"><button className="button button-lime" onClick={() => request('consultation')}>Поговорити з менеджером <span className="button-icon"><Icon name="arrow" size={17}/></span></button></div><small className="manager-note"><Icon name="terrain" size={15}/> Перша консультація — безкоштовна</small></div><img src={`${A}/green-lev-mascot-cutout.png`} alt="Менеджер Green.Lev.Travel"/></div></div></section>
       <section className="contact-section" id="contact"><div className="shell contact-card"><div className="contact-copy"><p className="section-label light">Почнімо з розмови</p><h2>Наступне місце сили<br/><span>починається тут.</span></h2></div><form className="lead-form" onSubmit={submitLead}><input name="website" className="honeypot" tabIndex="-1" autoComplete="off"/><label><span>Ваше ім’я</span><input name="name" type="text" placeholder="Як до вас звертатися?" minLength="2" required/></label><label><span>Телефон або email</span><input name="contact" type="text" placeholder="Ваш контакт" minLength="5" required/></label><label className="wide"><span>Що вас цікавить?</span><select name="interest" value={interest} onChange={(e) => setInterest(e.target.value)}><option value="land">У мене є земля</option><option value="investment">Хочу інвестувати</option><option value="presentation">Хочу отримати презентацію</option><option value="consultation">Хочу отримати консультацію</option><option value="partnership">Хочу обговорити партнерство</option></select></label><button className="button button-lime wide" type="submit" disabled={status.state === 'loading'}>{status.state === 'loading' ? 'Надсилаємо…' : 'Обговорити проєкт'} <span className="button-icon"><Icon name="arrow" size={17}/></span></button><p className={`form-status wide ${status.state}`}>{status.message}</p></form><img src={`${A}/green-lev-mascot-cutout.png`} alt="Зелений лев Green.Lev.Travel"/></div></section>
     </main>
-    <footer className="site-footer"><div className="shell footer-inner"><Logo footer/><a href="mailto:hello@green.lev.travel">hello@green.lev.travel</a><a href="#top">На початок</a><span>© 2026</span></div></footer>
+    <footer className="site-footer"><div className="shell footer-inner"><Logo footer/><a href="mailto:info@green.lev.travel">info@green.lev.travel</a><a href="#top">На початок</a><span>© 2026</span></div></footer>
   </>;
 }
 
