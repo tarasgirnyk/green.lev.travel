@@ -36,7 +36,8 @@ const steps = [
 ];
 
 function Logo({ footer = false }) {
-  return <a className={`logo ${footer ? 'footer-logo' : ''}`} href="#top"><img src={`${A}/brand/lev-travel-lion-green.svg`} alt="" /><strong>green<span>.</span>lev<span>.</span>travel</strong></a>;
+  const file = footer ? 'green.lev.travel_white.svg' : 'green.lev.travel.svg';
+  return <a className={`logo ${footer ? 'footer-logo' : ''}`} href="#top"><img src={`${A}/brand/${file}`} alt="Green.Lev.Travel" /></a>;
 }
 
 function App() {
