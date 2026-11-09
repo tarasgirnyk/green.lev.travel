@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="uk">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Явір бойківський · White.Lev.Travel</title>
+  <style>
+    *{box-sizing:border-box}body{margin:0;background:#f2efe9;color:#181713;font:17px/1.55 system-ui,-apple-system,sans-serif}header,main,footer{max-width:1460px;margin:auto;padding:32px}header{padding-top:58px}.brand{font-size:12px;letter-spacing:.2em;color:#514a40}h1{font:600 clamp(42px,7vw,82px)/.98 Georgia,serif;letter-spacing:-.045em;margin:18px 0 22px}.lead{max-width:790px;font-size:21px;color:#554f46}.chips{display:flex;gap:9px;flex-wrap:wrap;margin-top:24px}.chips span{border:1px solid #b9b1a5;border-radius:99px;padding:7px 13px;font-size:13px}.grid{display:grid;grid-template-columns:1fr 1fr;gap:24px}.card{background:#fff;border:0;padding:0;text-align:left;color:inherit;font:inherit;border-radius:10px;overflow:hidden;cursor:pointer}.card:first-child{grid-column:1/-1}.card img{display:block;width:100%;aspect-ratio:3/2;object-fit:cover}.card:first-child img{aspect-ratio:16/9}.copy{display:block;padding:18px 22px}.copy small{display:block;color:#777;margin-bottom:4px}.copy strong{font:600 24px Georgia,serif}.copy em{display:block;font-style:normal;color:#655e55;margin-top:5px}footer{color:#6a6359;font-size:14px;padding-bottom:54px}a{color:inherit}dialog{border:0;border-radius:12px;padding:12px;background:#111;color:#fff;max-width:96vw;width:1500px}dialog::backdrop{background:#000d}dialog img{display:block;width:100%;max-height:80vh;object-fit:contain}.bar{display:flex;align-items:center;justify-content:space-between;gap:10px;padding:6px}.bar button{border:1px solid #666;background:#222;color:#fff;border-radius:7px;padding:9px 16px;cursor:pointer}.bar p{margin:0}@media(max-width:760px){header,main,footer{padding:20px}.grid{grid-template-columns:1fr}.card:first-child{grid-column:auto}.card:first-child img,.card img{aspect-ratio:3/2}.bar{flex-wrap:wrap}}
+  </style>
+</head>
+<body>
+  <header>
+    <div class="brand">WHITE.LEV.TRAVEL · GREEN LOVE TRAVEL</div>
+    <h1>Явір бойківський</h1>
+    <p class="lead">Дворівневий сімейний будинок: унизу студія для спільного часу, нагорі — приватна спальня. Світла мінеральна основа, копчений дуб, вовна, льон і сучасно прочитаний бойківський орнамент.</p>
+    <div class="chips"><span>Два рівні</span><span>Сімейний формат</span><span>Диван для дітей</span><span>Спальня нагорі</span><span>Концепт</span></div>
+  </header>
+  <main class="grid">
+    <button class="card" data-i="0"><img src="32_yavir_boykivskyi_plan.png" alt="Планування двох поверхів і фасад"><span class="copy"><small>01 · СХЕМА</small><strong>Прямокутне планування</strong><em>Похилим є дах; обидва поверхи мають прямокутний контур.</em></span></button>
+    <button class="card" data-i="1"><img src="32_yavir_boykivskyi_ground_floor.png" alt="Студія першого поверху"><span class="copy"><small>02 · ПЕРШИЙ ПОВЕРХ</small><strong>Студія для родини</strong><em>Кухня, стіл, диван для дітей і сходи в одній стриманій композиції.</em></span></button>
+    <button class="card" data-i="2"><img src="32_yavir_boykivskyi_bedroom.png" alt="Спальня батьків під двосхилим дахом"><span class="copy"><small>03 · ДРУГИЙ ПОВЕРХ</small><strong>Спальня під дахом</strong><em>Вапняна штукатурка, дуб, вовна та панорамне скління.</em></span></button>
+    <button class="card" data-i="3"><img src="32_yavir_boykivskyi_bathroom.png" alt="Компактний санвузол"><span class="copy"><small>04 · САНВУЗОЛ</small><strong>Камінь і кераміка</strong><em>Одна орнаментальна вставка підтримує характер у спокійному просторі.</em></span></button>
+  </main>
+  <footer>10.09.2026 · Концептуальні візуалізації, не фотографії збудованого об’єкта. Габарити, сходи, висоти, місткість дивана та кошторис уточнюються. <a href="32_yavir_boykivskyi_concept.md">Опис концепції</a>.</footer>
+  <dialog id="viewer"><div class="bar"><button id="prev">←</button><p id="caption"></p><button id="next">→</button><button id="close">Закрити ✕</button></div><img id="large" alt=""></dialog>
+  <script>
+    const shots=[['32_yavir_boykivskyi_plan.png','Планування'],['32_yavir_boykivskyi_ground_floor.png','Студія першого поверху'],['32_yavir_boykivskyi_bedroom.png','Спальня батьків'],['32_yavir_boykivskyi_bathroom.png','Санвузол']];let i=0;const d=document.querySelector('#viewer'),img=document.querySelector('#large'),cap=document.querySelector('#caption');function show(n){i=(n+shots.length)%shots.length;img.src=shots[i][0];img.alt=shots[i][1];cap.textContent=`${i+1} / ${shots.length} · ${shots[i][1]}`}document.querySelectorAll('.card').forEach(b=>b.onclick=()=>{show(+b.dataset.i);d.showModal()});document.querySelector('#prev').onclick=()=>show(i-1);document.querySelector('#next').onclick=()=>show(i+1);document.querySelector('#close').onclick=()=>d.close();document.addEventListener('keydown',e=>{if(!d.open)return;if(e.key==='ArrowLeft')show(i-1);if(e.key==='ArrowRight')show(i+1)});d.onclick=e=>{if(e.target===d)d.close()};
+  </script>
+</body>
+</html>
