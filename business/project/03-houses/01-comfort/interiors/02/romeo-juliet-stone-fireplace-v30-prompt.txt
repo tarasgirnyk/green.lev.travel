@@ -1,0 +1,21 @@
+Built-in image_gen; precise-object-edit; 13.11.2026.
+Edit target: romeo-juliet-bed-view-v29.png
+Output: romeo-juliet-stone-fireplace-v30.png
+Status: proposed antique-inspired fireplace surround for review; appearance concept only.
+
+Use case: precise-object-edit.
+Asset type: photorealistic interior design visualization for Lev Plus Comfort, Romeo and Juliet.
+Input image 1 is the EDIT TARGET: the existing first-person view from the bed toward the framed television, black wall-mounted fireplace, walnut kitchen at left and open terrace at right.
+
+PRIMARY REQUEST: Redesign ONLY the fireplace and its immediate surround to harmonize beautifully with this romantic historical Verona interior. The user approves the television as a picture in its existing gold frame but rejects the bare heavy black box fireplace. Create a refined light antique-style fireplace portal that looks like part of the room's architecture, achievable in this compact studio. This is an appearance concept, not a technical gas-appliance installation plan.
+
+FIREPLACE DESIGN:
+Replace the current exposed black rectangular outer casing with a compact, elegant, shallow FLOOR-STANDING portal in warm ivory / pale honey limestone appearance, very fine subtle aged stone texture and restrained softened edges. Italian Renaissance / old Verona inspiration, refined and romantic. Two slim molded side pilasters on small bases, a graceful shallow segmental arch around the inset opening, a slim stepped mantel shelf, and ONE small delicate leafy relief centered on the frieze. A narrow patinated bronze inner edge echoes the existing TV frame, candleholder and curtain ties. Keep most of the portal plain beautifully proportioned stone; tasteful small ornament, no heavy carving.
+The firebox is a dark recessed GLASS-FRONTED gas-style flame window integrated into the light surround, with a believable small warm amber row of flames and a discreet burner bed, no large exposed black border. Preserve the attractive visible fire. The dark area is limited to the actual fire chamber. No open projecting flame outside the firebox.
+A thin matching light stone base meets the floor, with minimal projection into the walkway. Total portal width approximately equal to, or slightly narrower than, the TV picture frame above. It sits on the floor and fits ENTIRELY within the available wall below the existing TV. Keep a visible plain wall gap below the TV frame and above the mantel. Do not move, raise or enlarge the TV. Harmonize the stone's warm ivory shade with the curtains and wall, with enough tonal contrast for the elegant profile to read.
+This should feel like a carefully designed contemporary fireplace inside a romantic antique-inspired portal, not a rustic log-cabin stove or a palace monument. No enormous columns, elaborate baroque gold swirls, lions, angels, fake heavy ruins, rough brick, red brick, ornate dark wooden mantel, full-wall chimney breast, added statues, mantel clutter, or surrounding candles.
+
+STRICT INVARIANTS:
+Keep EXACT same first-person bed viewpoint, framing, lens, proportions, duvet in the lower foreground, burgundy/ivory canopy curtains framing the sides and top, bench edge, starry graphite stretch ceiling and soft warm perimeter light. Keep the TV at the exact same location and size, with its gold frame and the SAME romantic Romeo and Juliet balcony image on screen.
+Keep the same walnut kitchen and bronze sink tap at left, table and two chairs, candelabrum, glasses and roses, wood floor, cream walls, right glazing with open door, open terrace with burgundy chairs, ivory cushions, lantern, partial hot tub and blue-hour trees. Preserve original warm evening exposure and wine/ivory/walnut/bronze palette. No new furniture, no altered wall dimensions, no persons, text, logos or labels.
+Only the fireplace treatment and tiny immediate floor contact are edited. Output one refined photorealistic landscape 3:2 image.

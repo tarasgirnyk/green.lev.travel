@@ -1,0 +1,21 @@
+Built-in image_gen; precise-object-edit; 13.11.2026.
+Edit target: romeo-juliet-evening-graphite-v26.png
+Output: romeo-juliet-starry-ceiling-v27.png
+Status: proposal for review, not approved replacement.
+
+Use case: precise-object-edit.
+Asset type: photorealistic architectural interior visualization for Lev Plus, Comfort, Romeo and Juliet.
+Input image 1 is the EDIT TARGET: the evening room with graphite ceiling, warm perimeter lighting and an electric fireplace.
+Primary request: edit this exact image to show a realistically buildable "starry sky" installation in its existing flat stretch ceiling. It must still unmistakably look like a real ceiling inside this specific room.
+
+CHANGE ONLY THE CEILING LIGHTING:
+Keep the existing flat, opaque, smooth MATTE dark graphite stretch ceiling and its rectangular room boundaries, same height and perspective. Add a restrained irregular scattering of approximately 90–130 tiny flush luminous fiber-optic pinpoints across the visible ceiling plane, with varied brightness and very small sizes. Most are dim pinpricks, a few brighter points; elegant fine white/champagne stars, no colored LEDs. Every pinpoint is fixed on the ceiling surface, perspectively foreshortened farther from the camera and naturally hidden behind the four-poster canopy and cabinetry where occluded. The graphite membrane remains clearly visible between lights. They should look like actual small optical fiber ends in a normal stretch ceiling, not a projected photograph. No large light fittings. No exaggerated flares.
+Retain the simple continuous warm-white perimeter light profile, slightly dimmed to let the fine star pinpoints read clearly. Keep the edges and corners of the ceiling legible. Preserve the warm comfortable brightness on the furniture and walls. The perceived magic comes from these delicate tiny points and the warm perimeter glow, with understated realistically installable detailing.
+
+COMPOSITION AND INVARIANTS:
+Preserve exact original landscape 3:2 composition, same camera and realistic eye-level entrance perspective. Keep every object in precisely the same place and size, including burgundy canopy bed and ivory sheers at left, burgundy bench, Juliet statuette and wall decoration, walnut bathroom door, all walnut kitchen units, round dining table and two burgundy chairs, television and small walnut antique-inspired electric fireplace with amber flame effect beneath it, dark wood plank flooring, bronze candle-style lighting, panoramic glazing and its open central door.
+Preserve the outdoor OPEN terrace, blue-hour trees, hot tub left, two burgundy armchairs with ivory cushions right, small square table and lantern, lateral privacy screens. No added terrace roof or front railing or extra enclosing glazing.
+Keep existing rich wine red, ivory, walnut and bronze colors, evening lighting quality and photographic materials.
+
+AVOID: galaxies, nebulae, clouds, moon, planets, Milky Way, cosmic wallpaper, a skylight, a hole in the roof, infinite universe, printed constellations, star connecting lines, star-shaped cutouts, giant starbursts, glitter, hanging fairy-light strings, reflective mirror finish, multi-level or vaulted ceiling, dramatic alteration of room exposure. No text, watermark or collage.
+Output a single refined photorealistic edited room image. This is a restrained attainable interior ceiling treatment, not fantasy space art.

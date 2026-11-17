@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="1040" viewBox="0 0 1440 1040">
+<rect width="1440" height="1040" fill="#faf8f2"/>
+<style>text{font-family:'Segoe UI',Arial,sans-serif;fill:#293a35} .title{font-size:30px;font-weight:600}.sub{font-size:18px}.room{font-size:19px;text-anchor:middle}.small{font-size:15px}.wall{stroke:#34413d;stroke-width:8;fill:none}.dim{stroke:#728077;stroke-width:1.5;fill:none}.dash{stroke:#728077;stroke-width:2;stroke-dasharray:6 5;fill:none}</style>
+<text x="60" y="55" class="title">Вілла — попередня схема зон</text>
+<text x="60" y="86" class="sub">10.11.2026 · Пропозиція габаритів 8 × 8 м · Два повні поверхи</text>
+<text x="60" y="115" class="small">Не робоче креслення. Контури зон умовні; двері, вікна, меблі та конструктив уточнюються окремо.</text>
+<text x="180" y="158" class="sub">ПЕРШИЙ ПОВЕРХ</text><text x="850" y="158" class="sub">ДРУГИЙ ПОВЕРХ</text>
+<!-- Each outside square represents 8 m at 60 px/m. Internal zone lines are schematic. -->
+<g transform="translate(170 220)">
+<rect width="480" height="480" fill="#eee5d6"/>
+<rect width="150" height="155" fill="#dce8e4"/>
+<rect x="150" width="155" height="155" fill="#f4efe5"/>
+<rect x="305" width="175" height="195" fill="#e1e1d7"/>
+<path d="M150 0V155H0 M305 0V195H480" class="wall"/>
+<rect width="480" height="480" class="wall"/>
+<text x="75" y="57" class="room"><tspan x="75">Санвузол</tspan><tspan x="75" dy="26">душ + WC</tspan><tspan x="75" dy="26">ціль ≈ 6 м²</tspan></text>
+<text x="225" y="55" class="room"><tspan x="225">Вхід</tspan><tspan x="225" dy="26">шафа</tspan><tspan x="225" dy="26">проходи</tspan></text>
+<text x="392" y="65" class="room"><tspan x="392">Сходи</tspan><tspan x="392" dy="26">та техніша</tspan></text>
+<path d="M334 140V110H450V160M334 130H450 M334 120H450" class="dim"/>
+<text x="240" y="270" class="room"><tspan x="240">Кухня-вітальня</tspan><tspan x="240" dy="28">ціль ≈ 35 м²</tspan></text>
+<text x="240" y="350" class="room"><tspan x="240">Стіл на 6 · диван біля сходів</tspan><tspan x="240" dy="28">TV по діагоналі в правому куті</tspan></text>
+<rect y="480" width="480" height="180" fill="#dfc6a2" stroke="#8f785b" stroke-width="2"/>
+<text x="240" y="550" class="room"><tspan x="240">Тераса 8 × 3 м = 24 м²</tspan><tspan x="240" dy="28">Стіл на 6 · SPA на окремій основі</tspan></text>
+<path d="M0 -30H480 M0 -40V-20 M480 -40V-20" class="dim"/><text x="240" y="-40" class="room">8,00 м</text>
+<path d="M-30 0V480 M-40 0H-20 M-40 480H-20" class="dim"/><text x="-52" y="240" class="room" transform="rotate(-90 -52 240)">8,00 м</text>
+<path d="M510 480V660 M500 480H520 M500 660H520" class="dim"/><text x="538" y="575" class="room" transform="rotate(-90 538 575)">3,00 м</text>
+</g>
+<g transform="translate(840 220)">
+<rect width="480" height="480" fill="#eee5d6"/>
+<rect width="145" height="130" fill="#dce8e4"/>
+<rect x="145" width="95" height="130" fill="#dce8e4"/>
+<rect x="305" width="175" height="195" fill="#e1e1d7"/>
+<rect y="130" width="305" height="65" fill="#f4efe5"/>
+<path d="M145 0V130 M0 130H240V0 M305 0V195H480 M0 195H480 M240 195V480" class="wall"/>
+<rect width="480" height="480" class="wall"/>
+<text x="73" y="48" class="room"><tspan x="73">Душова</tspan><tspan x="73" dy="26">≈ 4,4 м²</tspan></text>
+<text x="192" y="48" class="room"><tspan x="192">WC</tspan><tspan x="192" dy="26">≈ 2,8 м²</tspan></text>
+<text x="135" y="173" class="room">Коридор</text>
+<text x="393" y="62" class="room"><tspan x="393">Сходи</tspan><tspan x="393" dy="26">майданчик</tspan></text>
+<rect x="335" y="115" width="115" height="50" class="dash"/>
+<text x="120" y="252" class="room"><tspan x="120">Спальня 1</tspan><tspan x="120" dy="27">ціль ≈ 15,5 м²</tspan></text>
+<text x="360" y="252" class="room"><tspan x="360">Спальня 2</tspan><tspan x="360" dy="27">ціль ≈ 15,5 м²</tspan></text>
+<text x="120" y="340" class="room"><tspan x="120">Ліжко + 2 тумби</tspan><tspan x="120" dy="27">Шафа</tspan><tspan x="120" dy="27">Столик, дзеркало</tspan><tspan x="120" dy="27">та пуф</tspan></text>
+<text x="360" y="340" class="room"><tspan x="360">Ліжко + 2 тумби</tspan><tspan x="360" dy="27">Шафа</tspan><tspan x="360" dy="27">Столик, дзеркало</tspan><tspan x="360" dy="27">та пуф</tspan></text>
+<path d="M0 -30H480 M0 -40V-20 M480 -40V-20" class="dim"/><text x="240" y="-40" class="room">8,00 м</text>
+<path d="M510 0V480 M500 0H520 M500 480H520" class="dim"/><text x="538" y="240" class="room" transform="rotate(-90 538 240)">8,00 м</text>
+<text x="0" y="530" class="sub">Обидві спальні з входами з коридору.</text>
+<text x="0" y="561" class="sub">Телевізорів нагорі немає.</text>
+<text x="0" y="605" class="small">Площі — цільовий баланс; не обміри цих прямокутників.</text>
+</g>
+<rect x="60" y="914" width="1320" height="88" rx="12" fill="#e8ede5"/>
+<text x="85" y="943" class="sub">Поруч із терасою: мангальний майданчик 3 × 3 м = 9 м² під окремим навісом.</text>
+<text x="85" y="973" class="small">Розміщення на ділянці, відстані, фундамент, перекриття, сходи та інженерія — після перевірки проєктувальником.</text>
+</svg>

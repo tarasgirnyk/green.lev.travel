@@ -1,0 +1,22 @@
+Built-in image_gen; precise-object-edit; 13.11.2026.
+Edit target: romeo-juliet-starry-ceiling-v27.png
+Output: romeo-juliet-romantic-hearts-v28.png
+Status: optional decorative variant for comparison; not approved.
+
+Use case: precise-object-edit.
+Asset type: photorealistic interior design concept, Lev Plus Comfort, Romeo and Juliet.
+Input image 1 is the EDIT TARGET: the accepted evening design direction with a graphite starry stretch ceiling, burgundy canopy bed, walnut furniture, antique-styled electric fireplace and open terrace.
+
+Primary request: make a tasteful, clearly visible love-story decorative variant of this EXACT room, adding heart-shaped cushions and a small romantic table detail. This is a restrained accessory trial in the established warm burgundy/ivory/walnut/bronze palette.
+
+SPECIFIC EDITS:
+1. On the bed at left, replace the two small burgundy decorative square cushions in front of the ivory sleeping pillows with TWO recognizably HEART-SHAPED velvet cushions. They are realistic small hotel decorative cushions approximately 30–35 cm wide, rich deep wine red matching the canopy and bench. Natural upholstered three-dimensional heart shape, subtle narrow antique-gold piping, soft believable folds, refined tonal fabric texture. Slightly stagger their positions so both heart silhouettes are clearly readable. Keep the normal ivory sleeping pillows behind them. Make the hearts visible from this exact doorway camera, not obscured by drapery or the wooden door. Avoid gigantic novelty pillows, bright scarlet, pink, cartoon styling or text.
+2. On the existing round dining table, add a SMALL shallow aged-brass dish holding a few deep burgundy rose petals and two fresh wine-red rose heads, arranged elegantly beside the base of the existing candelabrum. Keep both existing wine glasses and the candelabrum. The table remains spacious and usable. This is the only added tabletop accessory. No large bouquet obstructing the room view, no petal trails or litter on the floor or bed.
+
+PRESERVE EXACTLY:
+Camera, framing, landscape 3:2 aspect ratio, room dimensions and architecture. The same matte dark graphite flat stretch ceiling with the SAME tiny realistic luminous stars and warm perimeter illumination. Existing burgundy canopy and ivory sheer fabric, bedding, burgundy bench at foot of bed, Juliet statuette, decorative wall relief, wooden bathroom door at far left, all walnut kitchen cabinets and hardware, dining table and two walnut/burgundy chairs, TV and electric fireplace, wooden plank floor, all existing lighting. Preserve open outdoor terrace with hot tub left, two burgundy armchairs with ivory cushions right, square table and lantern, and blue-hour garden. No terrace enclosure, roof or front railing.
+Keep evening exposure, detailed walnut material, deep wine-red and warm ivory colors identical to reference.
+
+STYLE: visually coherent romantic hospitality interior with a subtle historical Verona mood. Realistic purchased or sewn accessories, practical and modest additions. The heart-shaped cushions are the key design change and must be unmistakably heart-shaped.
+AVOID: balloons, neon LOVE signs, text, wedding banners, hearts on walls or ceiling, extra furniture, heart-shaped ceiling lights, glitter, pink recoloring, clutter, people, watermark, collage.
+Output one photorealistic edited image.

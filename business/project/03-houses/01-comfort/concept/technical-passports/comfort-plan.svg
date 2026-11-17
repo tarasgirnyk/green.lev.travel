@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg
+  PUBLIC '-//W3C//DTD SVG 1.0//EN'
+  'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'>
+<svg width="350" height="447" preserveAspectRatio="xMinYMin meet" viewBox="0 0 350 447" xmlns="http://www.w3.org/2000/svg" version="1.0" fill-rule="evenodd" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<title>...</title>
+	<desc>...</desc>
+	<clipPath id="clip">
+		<rect x="0" y="0" width="350" height="447"/>
+	</clipPath>
+	<g id="group" transform="scale(1,-1) translate(0,-447)" style="clip-path: url(#clip)">
+		<g transform="">
+			<rect x="31" y="136" width="288.0" height="270" style="stroke: none; stroke-linecap: butt; stroke-width: 0.6; fill: rgb(25%,29%,27%); fill-rule: evenodd;"/>
+			<rect x="42.25" y="147.25" width="265.5" height="247.5" style="stroke: none; stroke-linecap: butt; stroke-width: 0.6; fill: rgb(96%,95%,93%); fill-rule: evenodd;"/>
+			<rect x="207.85" y="290.35" width="5.400000000000006" height="104.39999999999998" style="stroke: none; stroke-linecap: butt; stroke-width: 0.6; fill: rgb(25%,29%,27%); fill-rule: evenodd;"/>
+			<rect x="207.85" y="290.35" width="99.9" height="5.399999999999977" style="stroke: none; stroke-linecap: butt; stroke-width: 0.6; fill: rgb(25%,29%,27%); fill-rule: evenodd;"/>
+			<rect x="213.25" y="295.75" width="94.5" height="99.0" style="stroke: none; stroke-linecap: butt; stroke-width: 0.6; fill: rgb(86%,92%,93%); fill-rule: evenodd;"/>
+			<rect x="206.95000000000002" y="300.25" width="6.75" height="36.0" style="stroke: none; stroke-linecap: butt; stroke-width: 0.6; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<path d="M 207.85,300.25 L 243.85,300.25 Z" style="stroke: rgb(25%,29%,27%); stroke-linecap: butt; stroke-width: 0.7;"/>
+			<polyline points="243.85 300.25, 243.542 304.9489, 242.6233 309.5675, 241.1097 314.0266, 239.0269 318.25, 236.4107 322.1654, 233.3058 325.7058, 229.7654 328.8107, 225.85 331.4269, 221.6266 333.5097, 217.1675 335.0233, 212.5489 335.942, 207.85 336.25" style="stroke: rgb(36%,42%,39%); stroke-linecap: butt; stroke-width: 0.5; fill: None; fill-rule: evenodd;"/>
+			<rect x="260.5" y="347.5" width="45.0" height="45.0" style="stroke: rgb(36%,42%,39%); stroke-linecap: butt; stroke-width: 0.6; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<rect x="276.25" y="307.0" width="27.0" height="24.75" style="stroke: rgb(36%,42%,39%); stroke-linecap: butt; stroke-width: 0.6; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<circle cx="231.7" cy="369.1" r="9.0" style="stroke: rgb(36%,42%,39%); stroke-linecap: butt; stroke-width: 0.6; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="235.783203125" y="334.9" style="font-family: UAB; font-size: 8px;fill: rgb(15%,23%,21%); stroke:none;" transform="translate(0,669) scale(1,-1)">САНВУЗОЛ</text>
+			<text x="245.271484375" y="320.5" style="font-family: UA; font-size: 8px;fill: rgb(15%,23%,21%); stroke:none;" transform="translate(0,641) scale(1,-1)">4,62 м²</text>
+			<rect x="42.25" y="259.75" width="27.0" height="108.0" style="stroke: rgb(36%,42%,39%); stroke-linecap: butt; stroke-width: 0.6; fill: rgb(80%,83%,80%); fill-rule: evenodd;"/>
+			<path d="M 42.25,286.75 L 69.25,286.75 Z" style="stroke: rgb(36%,42%,39%); stroke-linecap: butt; stroke-width: 0.4;"/>
+			<path d="M 42.25,313.75 L 69.25,313.75 Z" style="stroke: rgb(36%,42%,39%); stroke-linecap: butt; stroke-width: 0.4;"/>
+			<path d="M 42.25,340.75 L 69.25,340.75 Z" style="stroke: rgb(36%,42%,39%); stroke-linecap: butt; stroke-width: 0.4;"/>
+			<rect x="42.25" y="367.75" width="108.0" height="27.0" style="stroke: rgb(36%,42%,39%); stroke-linecap: butt; stroke-width: 0.6; fill: rgb(86%,82%,76%); fill-rule: evenodd;"/>
+			<text x="86.9404296875" y="378.1" style="font-family: UAB; font-size: 7px;fill: rgb(15%,23%,21%); stroke:none;" transform="translate(0,756) scale(1,-1)">ШАФА</text>
+			<text x="77.808837890625" y="300.25" style="font-family: UAB; font-size: 7px;fill: rgb(15%,23%,21%); stroke:none;" transform="translate(0,600) scale(1,-1)">КУХНЯ</text>
+			<rect x="209.2" y="173.8" width="90.0" height="81.0" style="stroke: rgb(36%,42%,39%); stroke-linecap: butt; stroke-width: 0.6; fill: rgb(75%,80%,81%); fill-rule: evenodd;"/>
+			<rect x="277.6" y="177.4" width="18.0" height="73.79999999999998" style="stroke: rgb(36%,42%,39%); stroke-linecap: butt; stroke-width: 0.6; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="240.2140625" y="208.0" style="font-family: UAB; font-size: 8px;fill: rgb(15%,23%,21%); stroke:none;" transform="translate(0,416) scale(1,-1)">ЛІЖКО</text>
+			<text x="232.308544921875" y="193.15" style="font-family: UA; font-size: 7px;fill: rgb(15%,23%,21%); stroke:none;" transform="translate(0,386) scale(1,-1)">1,80 × 2,00 м</text>
+			<rect x="278.5" y="262.0" width="20.25" height="18.0" style="stroke: rgb(36%,42%,39%); stroke-linecap: butt; stroke-width: 0.6; fill: rgb(93%,89%,83%); fill-rule: evenodd;"/>
+			<rect x="278.5" y="150.85" width="20.25" height="18.0" style="stroke: rgb(36%,42%,39%); stroke-linecap: butt; stroke-width: 0.6; fill: rgb(93%,89%,83%); fill-rule: evenodd;"/>
+			<rect x="42.25" y="190.0" width="4.5" height="49.5" style="stroke: none; stroke-linecap: butt; stroke-width: 0.6; fill: rgb(25%,29%,27%); fill-rule: evenodd;"/>
+			<text x="64.138671875" y="209.35" style="font-family: UAB; font-size: 8px;fill: rgb(15%,23%,21%); stroke:none;" transform="translate(0,418) scale(1,-1)">TV</text>
+			<rect x="107.5" y="272.35" width="36.0" height="36.0" style="stroke: rgb(36%,42%,39%); stroke-linecap: butt; stroke-width: 0.6; fill: rgb(93%,89%,83%); fill-rule: evenodd;"/>
+			<rect x="112.9" y="248.5" width="24.75" height="18.899999999999977" style="stroke: rgb(36%,42%,39%); stroke-linecap: butt; stroke-width: 0.6; fill: rgb(93%,89%,83%); fill-rule: evenodd;"/>
+			<rect x="112.9" y="313.75" width="24.75" height="18.899999999999977" style="stroke: rgb(36%,42%,39%); stroke-linecap: butt; stroke-width: 0.6; fill: rgb(93%,89%,83%); fill-rule: evenodd;"/>
+			<text x="91.7728515625" y="227.8" style="font-family: UAB; font-size: 9px;fill: rgb(15%,23%,21%); stroke:none;" transform="translate(0,455) scale(1,-1)">СТУДІЯ 27,30 м²</text>
+			<rect x="166" y="393.4" width="40.5" height="13.050000000000011" style="stroke: none; stroke-linecap: butt; stroke-width: 0.6; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<path d="M 166,394.75 L 166,354.25 Z" style="stroke: rgb(25%,29%,27%); stroke-linecap: butt; stroke-width: 0.7;"/>
+			<polyline points="206.5 394.75, 206.1535 389.4637, 205.12 384.2678, 203.4171 379.2513, 201.074 374.5, 198.1308 370.0952, 194.6378 366.1122, 190.6548 362.6192, 186.25 359.676, 181.4987 357.3329, 176.4822 355.63, 171.2863 354.5965, 166 354.25" style="stroke: rgb(36%,42%,39%); stroke-linecap: butt; stroke-width: 0.5; fill: None; fill-rule: evenodd;"/>
+			<rect x="55.75" y="136" width="238.5" height="11.25" style="stroke: none; stroke-linecap: butt; stroke-width: 0.6; fill: rgb(86%,92%,93%); fill-rule: evenodd;"/>
+			<path d="M 55.75,141.4 L 294.25,141.4 Z" style="stroke: rgb(50%,64%,67%); stroke-linecap: butt; stroke-width: 1;"/>
+			<rect x="31" y="28.0" width="288.0" height="108.0" style="stroke: rgb(36%,42%,39%); stroke-linecap: butt; stroke-width: 0.6; fill: rgb(93%,89%,83%); fill-rule: evenodd;"/>
+			<path d="M 31,122.5 L 319,122.5 Z" style="stroke: rgb(81%,76%,66%); stroke-linecap: butt; stroke-width: 0.4;"/>
+			<path d="M 31,109 L 319,109 Z" style="stroke: rgb(81%,76%,66%); stroke-linecap: butt; stroke-width: 0.4;"/>
+			<path d="M 31,95.5 L 319,95.5 Z" style="stroke: rgb(81%,76%,66%); stroke-linecap: butt; stroke-width: 0.4;"/>
+			<path d="M 31,82 L 319,82 Z" style="stroke: rgb(81%,76%,66%); stroke-linecap: butt; stroke-width: 0.4;"/>
+			<path d="M 31,68.5 L 319,68.5 Z" style="stroke: rgb(81%,76%,66%); stroke-linecap: butt; stroke-width: 0.4;"/>
+			<path d="M 31,55 L 319,55 Z" style="stroke: rgb(81%,76%,66%); stroke-linecap: butt; stroke-width: 0.4;"/>
+			<path d="M 31,41.5 L 319,41.5 Z" style="stroke: rgb(81%,76%,66%); stroke-linecap: butt; stroke-width: 0.4;"/>
+			<rect x="154.75" y="134.65" width="45.0" height="13.050000000000011" style="stroke: none; stroke-linecap: butt; stroke-width: 0.6; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<path d="M 154.75,136 L 154.75,91 Z" style="stroke: rgb(25%,29%,27%); stroke-linecap: butt; stroke-width: 0.7;"/>
+			<polyline points="199.75 136, 199.365 130.1263, 198.2167 124.3531, 196.3246 118.7792, 193.7211 113.5, 190.4509 108.6057, 186.5698 104.1802, 182.1443 100.2991, 177.25 97.02886, 171.9708 94.42542, 166.3969 92.53334, 160.6237 91.38498, 154.75 91" style="stroke: rgb(36%,42%,39%); stroke-linecap: butt; stroke-width: 0.5; fill: None; fill-rule: evenodd;"/>
+			<rect x="46.75" y="45.099999999999994" width="32.400000000000006" height="36.0" style="stroke: rgb(36%,42%,39%); stroke-linecap: butt; stroke-width: 0.6; fill: rgb(89%,90%,88%); fill-rule: evenodd;"/>
+			<rect x="134.5" y="45.099999999999994" width="32.400000000000006" height="36.0" style="stroke: rgb(36%,42%,39%); stroke-linecap: butt; stroke-width: 0.6; fill: rgb(89%,90%,88%); fill-rule: evenodd;"/>
+			<rect x="87.25" y="45.099999999999994" width="38.25" height="38.25" style="stroke: rgb(36%,42%,39%); stroke-linecap: butt; stroke-width: 0.6; fill: rgb(93%,89%,83%); fill-rule: evenodd;"/>
+			<circle cx="258.25" cy="82.9" r="41.625" style="stroke: rgb(36%,42%,39%); stroke-linecap: butt; stroke-width: 0.7; fill: rgb(86%,92%,93%); fill-rule: evenodd;"/>
+			<text x="250.24609375" y="82.0" style="font-family: UA; font-size: 8px;fill: rgb(15%,23%,21%); stroke:none;" transform="translate(0,164) scale(1,-1)">SPA</text>
+			<text x="137.91015625" y="36.999999999999986" style="font-family: UAB; font-size: 9px;fill: rgb(15%,23%,21%); stroke:none;" transform="translate(0,73) scale(1,-1)">ТЕРАСА 15,36 м²</text>
+			<path d="M 31,419.5 L 319,419.5 Z" style="stroke: rgb(25%,29%,27%); stroke-linecap: butt; stroke-width: 0.7;"/>
+			<path d="M 31,415 L 31,424 Z" style="stroke: rgb(25%,29%,27%); stroke-linecap: butt; stroke-width: 0.7;"/>
+			<path d="M 319,415 L 319,424 Z" style="stroke: rgb(25%,29%,27%); stroke-linecap: butt; stroke-width: 0.7;"/>
+			<text x="160.1806640625" y="424.9" style="font-family: UAB; font-size: 10px;fill: rgb(15%,23%,21%); stroke:none;" transform="translate(0,849) scale(1,-1)">6,40 м</text>
+			<path d="M 16.6,136 L 16.6,406 Z" style="stroke: rgb(25%,29%,27%); stroke-linecap: butt; stroke-width: 0.7;"/>
+			<path d="M 12.1,136 L 21.1,136 Z" style="stroke: rgb(25%,29%,27%); stroke-linecap: butt; stroke-width: 0.7;"/>
+			<path d="M 12.1,406 L 21.1,406 Z" style="stroke: rgb(25%,29%,27%); stroke-linecap: butt; stroke-width: 0.7;"/>
+			<text x="1.6148437500000021" y="271.0" style="font-family: UA; font-size: 8px;fill: rgb(15%,23%,21%); stroke:none;" transform="translate(0,542) scale(1,-1)">6,00</text>
+			<text x="169.23828125" y="404.65" style="font-family: UA; font-size: 7px;fill: rgb(15%,23%,21%); stroke:none;" transform="translate(0,809) scale(1,-1)">ВХІД</text>
+		</g>
+	</g>
+</svg>

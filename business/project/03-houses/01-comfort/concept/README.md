@@ -2,6 +2,8 @@
 
 Схему погоджено 09.11.2026.
 
+17.11.2026 додано [попередній технічний паспорт і окремий кошторис](technical-passports/README.md) на прикладі «Чорне і біле». Площі взято з цього ескізу; кошторис і технічна деталізація ще не погоджені.
+
 ![Погоджений ескіз Comfort](comfort-concept-sketch.png)
 
 [План PNG](comfort-concept-sketch.png) · [Векторний план SVG](comfort-concept-sketch.svg).

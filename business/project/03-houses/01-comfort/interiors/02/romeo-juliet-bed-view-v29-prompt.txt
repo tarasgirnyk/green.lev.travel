@@ -1,0 +1,29 @@
+Built-in image_gen; camera-view transformation with object edits; 13.11.2026.
+Input 1: romeo-juliet-romantic-hearts-v28.png — room and layout reference.
+Input 2: romeo-juliet-fireplace-reference-v29.png — user-provided fireplace appearance reference; no product model or fuel type verified.
+Output: romeo-juliet-bed-view-v29.png
+Status: proposed new viewpoint for review.
+
+Use case: precise-object-edit / camera-view transformation.
+Asset type: photorealistic architectural interior visualization, Lev Plus Comfort, Romeo and Juliet.
+IMAGE 1: approved room design and spatial reference, an entrance view with burgundy four-poster bed at left, TV and kitchen at right, open terrace ahead. Reconstruct THIS SAME room from a NEW viewpoint.
+IMAGE 2: exact design reference for a NEW fireplace; use its simple wide rectangular charcoal-black casing, recessed flame window and glass front edge. This explicitly REPLACES the old ornate wooden fireplace and mantel entirely.
+
+PRIMARY REQUEST:
+Render the view seen by a guest RECLINING IN THE BED, looking across the foot of the bed toward the TV on the opposite wall. This is an actual first-person perspective from the pillow position, not a view of the bed from outside. Show the same believable small studio, with two requested changes: the sleek rectangular black fireplace from image 2 beneath the TV, and a restrained antique-gold picture-frame surround for the TV showing a romantic Verona scene.
+
+CAMERA AND SPATIAL GEOMETRY (critical):
+Move camera from the entrance to the pillow/headboard area of the EXISTING BED on the left wall in reference 1. Turn the camera approximately 90 degrees to the RIGHT relative to the original entry photograph, facing the original TV/kitchen wall. Reclining-eye height approximately 0.9–1.0m above the floor, looking horizontally over the bed, moderately wide architectural 24–28mm-equivalent lens, straight verticals, no fisheye. The cream/wine damask duvet surface extends from the bottom edge toward the foot of the bed, occupying only the bottom 15–20% of the image. Two existing bronze-brown foot posts with gathered burgundy/ivory drapes gently frame the left and right periphery; a portion of the canopy front rail may appear at the top, but preserve clear view of the room and some starry ceiling beyond it.
+Straight ahead: original opposite cream wall with TV above fireplace. LEFT of the TV wall: existing walnut kitchen counter and upper/lower cabinets, bronze tap, sink, small hob, warm undercabinet lighting. Round dining table and two wine-red walnut chairs stand toward the left foreground beside the kitchen, in their original relative location, so the table does not sit directly between the pillows and TV. The bench remains at the foot of bed; only its upper edge may be visible beyond the duvet.
+RIGHT: original floor-to-ceiling glazing lies on the perpendicular terrace-facing wall; the terrace is now seen obliquely through this right-hand glazing, not directly behind the TV. Open central glass door, blue-hour garden, burgundy outdoor chairs with ivory pillows and lantern. A partial glimpse of the hot tub near the right edge is acceptable if supported by the sightline. Keep terrace fully OPEN to garden, no new roof or enclosure or front railing.
+Do NOT mirror the room. Do NOT place terrace behind TV. No second bed, no visible headboard or pillows in front of the camera, no people, legs, feet or human body.
+
+FIREPLACE UPDATE:
+Remove the existing rustic carved walnut fireplace mantel completely. Install one compact slim wall-mounted electric-flame-effect fireplace directly under the TV, closely matching image 2's simple landscape charcoal-black rectangular metal body, black inner cavity and restrained warm flame row behind glass. Width approximately 85–100cm in this room, sensible scale relative to TV. No mantel shelf, carved surround, stone chimney breast, woodpile or floor hearth. The attached product image is a design reference only; visualize the planned electric flame effect without implying a verified product model or fuel type. Leave a visible plain-wall gap between fireplace casing and TV frame.
+
+TV UPDATE:
+Keep the TV on its existing opposite wall, centered over fireplace. Add a slim elegant antique-gold/champagne picture-frame surround with simple molded stepped profiles, evoking economical lightweight decorative wall molding. Refined modest ornament, no massive baroque curls. TV is ON and displays one tasteful painterly romantic Verona courtyard and balcony at dusk with two distant adult lovers, a still from an art-screen loop, no text, interface, logos or subtitles. The screen looks like a lit artwork, softly luminous and natural. The surround harmonizes with bronze candleholders and gold drape ties.
+
+PRESERVE DESIGN:
+Same matte graphite single-level stretch ceiling, delicate tiny fiber-optic stars and soft warm perimeter light. Same burgundy, warm ivory, dark walnut, bronze palette, wood plank floor, walls, kitchen construction, dining furniture, glasses, candleholder and small rose dish. Same cozy evening exposure and garden outside. Preserve realistic compact room proportions and normal ceiling height; do not enlarge into a hall. Photorealistic coherent materials, plausible occlusions and furniture scale.
+One landscape 3:2 image, no captions, collage, arrows, watermark or labels.

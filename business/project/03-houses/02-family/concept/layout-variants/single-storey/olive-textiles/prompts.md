@@ -1,0 +1,21 @@
+# Оливковий текстиль — запити для ImageGen
+
+Пробний варіант текстилю для одноповерхових «Солодких снів». Зображення створено вбудованим ImageGen.
+
+## Студія · оливкові подушки й світлий плед
+
+[Вихідний кадр](../01-entry-studio.png).
+
+Use case: precise-object-edit. Update ONLY the specified textiles in the supplied Sweet Dreams Family entry photo. Change the pale existing fitted padded seat cushions on the four existing rattan-backed wood dining chairs INSIDE the studio to EXACTLY the same muted medium olive green as the sofa fabric on the left of the photo (#74764F in neutral light). Match BY SAMPLING the actual upholstery hue of the supplied sofa. Preserve actual chair construction: leave rattan backrests, wood frame and legs exactly tan/natural, the same contours, seat thickness and realistic shading. This is seat upholstery, not an added loose square throw pillow. Replace ONLY the tan/caramel throw blanket draped over the arm of the olive sofa with a warm cream / natural unbleached ecru linen throw (#E6DDCB), same small cozy drape, refined texture, fringed edge if natural. Preserve dark olive sofa and rust cushions. Also match the seat pads on the same outdoor rattan chairs visible THROUGH the glass to the same muted olive fabric so both dining areas visibly coordinate. Leave all other contents as supplied, including cream walls, olive cabinetry, dining furniture locations, full photo dimensions, camera and geometry, light, terrace table and spa, grill, doorway and ceiling. One full 3:2 landscape photo from exact supplied point of view, no additional furnishings, people or lettering.
+
+## Спальня · оливкова постіль
+
+[Вихідний кадр](../02-kitchen-to-bedroom.png).
+
+Use case: precise-object-edit. Make an exact localized textile edit of the supplied photo looking from the kitchen into the Sweet Dreams Family bedroom. Change all the originally ivory/white BEDDING fabric to a visible warm muted olive-green: replace the white duvet cover (including draped edges, turned top fold and any visible sheet) and both big white sleeping pillowcases with a coordinated set of soft matte washed cotton in medium-light sage olive (#8C8D66 in neutral light), a gently lighter shade of the warm muted olive green studio sofa. Keep the existing quilted blanket at foot in its deeper olive to create tonal layering. Preserve the pair of rust-terracotta little cushions as a warm accent. The upholstered headboard and bed base stay light cream, identical shape and position, as do rug, door, drapes, wardrobe, foot traffic, nightstands, lamps, floor, kitchen glimpse and daylight. Make absolutely no change outside the specified bed linens. Keep natural woven cloth and nice understated folds, realistic sun, legibility of green. One full exact 3:2 source camera and framing, no people or lettering.
+
+## Тераса · оливкові подушки на кріслах
+
+[Вихідний кадр](../04-terrace-from-yard.png).
+
+Use case: precise-object-edit. Preserve entire supplied photo, latest front view of the Sweet Dreams Family deck. Change only specified textiles. Carefully recolor the existing pale PADDED SEATS of all FOUR woven wooden dining chairs at the square outdoor table to muted earthy OLIVE GREEN (#74764F in neutral light), taking this exact olive color from the indoor sofa visible through the left window. All woven cane backs, legs and wooden structure stay natural straw oak. Keep the original fitted cushion silhouette and texture, no seatback padding, pillows or additions. Match the indoor dining chair seat pads too where subtly visible through the left glazing, same olive hue and chair model. For consistency through that glass, the olive sofa's throw should now be LIGHT ECRU linen, and through the bedroom glazing on the right, any originally cream bed linens of the duvet and large pillow cases should be WARM SAGE-OLIVE, with the existing darker olive quilt and a couple of terracotta cushions. Make no other changes to bedroom or studio. Preserve outdoor composition, warm facade wood, roof, existing masonry grill under its own canopy on the left, full terrace and outdoor table, deck, privacy screen, candles, and round spa, all object positions, camera, dimensions and light. No people, no lettering. One full original 3:2 photo with olive seat cushions clearly visible.
