@@ -9,3 +9,7 @@ dist/
 .deploy-*
 release.tar.gz
 tmp/pdfs/
+
+# Local software installers and browser shortcuts
+/business/дизайни/OpenOffice 4.1.16 (ru) Installation Files/
+/business/дизайни/**/*.lnk
