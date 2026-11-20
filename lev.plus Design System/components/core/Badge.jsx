@@ -1,0 +1,4 @@
+import React from 'react';
+const S={free:{c:'var(--status-free)',t:'Вільна'},reserved:{c:'var(--status-reserved)',t:'Заброньована'},sold:{c:'var(--status-sold)',t:'Продана'},neutral:{c:'var(--text-muted)',t:''},accent:{c:'var(--accent)',t:''}};
+export function Badge({status='neutral',children,solid}){const s=S[status]||S.neutral;
+return <span style={{display:'inline-flex',alignItems:'center',gap:8,height:28,padding:'0 12px',borderRadius:'var(--radius-pill)',border:solid?'none':'1px solid var(--border)',background:solid?s.c:'var(--surface-card)',color:solid?'var(--linen)':'var(--text-body)',fontFamily:'var(--font-body)',fontSize:12,fontWeight:700,letterSpacing:'.02em',whiteSpace:'nowrap'}}>{!solid&&<span style={{width:7,height:7,borderRadius:'50%',background:s.c}}/>}{children||s.t}</span>;}

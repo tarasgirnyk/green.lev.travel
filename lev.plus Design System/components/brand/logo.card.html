@@ -1,0 +1,17 @@
+<!-- @dsCard group="Components" viewport="700x300" name="Brand — Logo" subtitle="Three mark concepts × light / forest / night" -->
+<!DOCTYPE html><html lang="uk"><head><meta charset="utf-8"><link rel="stylesheet" href="../../styles.css">
+<script src="https://unpkg.com/react@18.3.1/umd/react.development.js" integrity="sha384-hD6/rw4ppMLGNu3tX5cjIb+uRZ7UkRJ6BPkLpg4hAu/6onKUg4lLsHAs9EBPT82L" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.development.js" integrity="sha384-u6aeetuaXnQ38mYT8rp6sbXaQe3NL9t+IBXmnYxwkUI2Hw4bsp2Wvmx4yRQF1uAm" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/@babel/standalone@7.29.0/babel.min.js" integrity="sha384-m08KidiNqLdpJqLq95G/LEi8Qvjl/xUYll3QILypMoQ65QorJ9Lvtp2RXYGBFj1y" crossorigin="anonymous"></script>
+<script src="../../_ds_bundle.js"></script>
+<style>body{margin:0;background:var(--surface-page);font-family:var(--font-body);color:var(--text-body)}#root{padding:14px}</style></head><body><div id="root"></div>
+<script type="text/babel">
+const NS=window.LevPlusDesignSystem_732b9c;
+const {Logo}=NS;
+const Cell=({bg,tone,mark,ring})=><div style={{background:bg,borderRadius:14,padding:'22px 18px',display:'flex',flexDirection:'column',gap:18,alignItems:'flex-start'}}><Logo mark={mark} tone={tone} size={40} ring={ring||bg}/><Logo variant="mark" mark={mark} tone={tone} size={36} ring={ring||bg}/></div>;
+const marks=['seal','cross','arch'];
+ReactDOM.createRoot(document.getElementById('root')).render(<div style={{display:'grid',gridTemplateColumns:'repeat(3,1fr)',gap:10}}>
+{marks.map(m=><Cell key={m+'a'} bg="var(--linen)" tone="forest" mark={m}/>)}
+{marks.map(m=><Cell key={m+'b'} bg="var(--forest)" tone="linen" mark={m}/>)}
+</div>);
+</script></body></html>

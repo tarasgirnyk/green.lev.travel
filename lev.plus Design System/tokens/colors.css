@@ -1,0 +1,23 @@
+/* lev.plus — colour tokens. Palette A «Ліс і льон» (default) + Palette B «Нічний ліс» ([data-theme="night"]) */
+:root{
+/* A · Ліс і льон — base */
+--forest:#1F3A2B;--forest-deep:#162B1F;--moss:#4E6B3A;--linen:#F2EDE3;--linen-2:#E9E2D4;--paper:#FBF8F2;--ochre:#C8A25A;--sun:#E6B24C;--leaf:#5E9A4B;--forest-ink:#0E2A1E;--white:#FFFFFF;--ochre-ink:#7A5C24;--graphite:#1C1E1B;--stone:#5C6158;--line:#D8CFBE;
+/* B · Нічний ліс — base */
+--night-bg:#12241A;--night-card:#1B3326;--night-raised:#223D2E;--night-text:#EFE8DA;--night-muted:#A9B3A4;--night-gold:#C9A35C;--night-line:rgba(239,232,218,.14);
+/* status (cabinet) */
+--status-free:#4E6B3A;--status-reserved:#C8A25A;--status-sold:#8A8F86;--danger:#A4442F;
+/* semantic — light (A) */
+--surface-page:var(--linen);--surface-card:var(--paper);--surface-sunken:var(--linen-2);--surface-inverse:var(--forest);--surface-inverse-deep:var(--forest-deep);
+--text-heading:var(--forest);--text-body:var(--graphite);--text-muted:var(--stone);--text-inverse:var(--linen);--text-inverse-muted:rgba(242,237,227,.72);
+--accent:var(--ochre);--accent-ink:var(--ochre-ink);--accent-on:var(--graphite);
+--border:var(--line);--border-strong:rgba(31,58,43,.45);--border-inverse:rgba(242,237,227,.18);
+--btn-primary-bg:var(--forest);--btn-primary-fg:var(--linen);--btn-accent-bg:var(--sun);--btn-accent-fg:var(--graphite);
+--focus-ring:0 0 0 3px rgba(200,162,90,.45);
+}
+[data-theme="night"]{
+--surface-page:var(--night-bg);--surface-card:var(--night-card);--surface-sunken:#0E1D15;--surface-inverse:var(--night-raised);--surface-inverse-deep:#0B1911;
+--text-heading:var(--night-text);--text-body:var(--night-text);--text-muted:var(--night-muted);--text-inverse:var(--night-text);--text-inverse-muted:rgba(239,232,218,.72);
+--accent:var(--night-gold);--accent-ink:var(--night-gold);--accent-on:#12241A;
+--border:var(--night-line);--border-strong:rgba(239,232,218,.4);--border-inverse:rgba(239,232,218,.18);
+--btn-primary-bg:var(--night-gold);--btn-primary-fg:#12241A;--btn-accent-bg:var(--night-gold);--btn-accent-fg:#12241A;
+}

@@ -1,0 +1,20 @@
+<!-- @dsCard group="Components" viewport="700x620" name="Content — House card, Steps, FAQ, Metrics" subtitle="HouseCard, StepItem, FaqItem, MetricTile, FeatureChip, RoundIcon" -->
+<!DOCTYPE html><html lang="uk"><head><meta charset="utf-8"><link rel="stylesheet" href="../../styles.css">
+<script src="https://unpkg.com/react@18.3.1/umd/react.development.js" integrity="sha384-hD6/rw4ppMLGNu3tX5cjIb+uRZ7UkRJ6BPkLpg4hAu/6onKUg4lLsHAs9EBPT82L" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.development.js" integrity="sha384-u6aeetuaXnQ38mYT8rp6sbXaQe3NL9t+IBXmnYxwkUI2Hw4bsp2Wvmx4yRQF1uAm" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/@babel/standalone@7.29.0/babel.min.js" integrity="sha384-m08KidiNqLdpJqLq95G/LEi8Qvjl/xUYll3QILypMoQ65QorJ9Lvtp2RXYGBFj1y" crossorigin="anonymous"></script>
+<script src="../../_ds_bundle.js"></script>
+<style>body{margin:0;background:var(--surface-page);font-family:var(--font-body);color:var(--text-body)}#root{padding:20px}</style></head><body><div id="root"></div>
+<script type="text/babel">
+const NS=window.LevPlusDesignSystem_732b9c;
+const {HouseCard,StepItem,FaqItem,MetricTile,FeatureChip,RoundIcon}=NS;
+function App(){const [o,setO]=React.useState(0);return <div style={{display:'grid',gridTemplateColumns:'260px 1fr',gap:20}}>
+<HouseCard kind="Два рівні" name="Сімейний" specs={['≈ 85 м²','2 спальні','до 6 гостей']} themes={['Адам і Єва','Пікассо','Max Royal']} image="../../assets/imagery/cabin-forest.png" featured/>
+<div style={{display:'grid',gap:18,alignContent:'start'}}>
+<div style={{display:'grid',gridTemplateColumns:'1fr 1fr',gap:18}}><StepItem n="01" icon="grid" title="Вибір проєкту" text="Ділянка, будинок і фінмодель — у кабінеті."/><StepItem n="05" icon="home" title="Будівництво" text="Фіксований кошторис і строки." active/></div>
+<div style={{display:'grid',gridTemplateColumns:'1fr 1fr',gap:10}}><MetricTile label="Кошторис" value="$96 000" hint="ліміт +10%"/><MetricTile label="Дохід / рік" value="$11–14k" hint="прогноз"/></div>
+<div><FaqItem question="Кому належить земля?" answer="Вам. Ділянка і будинок — у вашій власності." open={o===0} onToggle={()=>setO(o===0?-1:0)}/><FaqItem question="Що як кошторис перевищено?" answer="До +10% — резерв інвестора, понад — наш ризик." open={o===1} onToggle={()=>setO(o===1?-1:1)}/></div>
+<div style={{display:'flex',gap:10,alignItems:'center',flexWrap:'wrap'}}><FeatureChip icon="shield">Перевірені ділянки</FeatureChip><RoundIcon name="receipt"/><RoundIcon name="terrain"/></div>
+</div></div>;}
+ReactDOM.createRoot(document.getElementById('root')).render(<App/>);
+</script></body></html>

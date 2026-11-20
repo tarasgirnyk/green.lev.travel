@@ -1,0 +1,12 @@
+:root{
+--font-display:'Geologica',system-ui,sans-serif;--font-body:'Golos Text',system-ui,-apple-system,'Segoe UI',sans-serif;--font-num:'Geologica',system-ui,sans-serif;
+--fw-display:400;/* @kind font */--fw-body:400 /* @kind font */;--fw-medium:600 /* @kind font */;--fw-bold:700 /* @kind font */;--fw-heavy:800 /* @kind font */;
+--ls-display:-.04em;--ls-label:.18em;--ls-tight:-.01em;
+--fs-display-xl:104px;--fs-display-l:76px;--fs-display-m:56px;--fs-h3:34px;--fs-h4:24px;--fs-lead:20px;--fs-body:16px;--fs-small:14px;--fs-caption:12px;--fs-label:11px;
+--lh-display:1.0;/* @kind font */--lh-heading:1.1 /* @kind font */;--lh-body:1.6 /* @kind font */;
+/* semantic */
+--type-heading:var(--fw-display) var(--fs-display-m)/var(--lh-heading) var(--font-display);
+--type-body:var(--fw-body) var(--fs-body)/var(--lh-body) var(--font-body);
+}
+/* Pair 2 — Unbounded + Onest (more contemporary; use per page via data-type="b") */
+[data-type="b"]{--font-display:'Unbounded','Onest',system-ui,sans-serif;--font-body:'Onest',system-ui,sans-serif;--font-num:'Unbounded',system-ui,sans-serif;--fw-display:500;/* @kind font */--ls-display:-.035em;--lh-display:1.02;/* @kind font */--fs-display-xl:84px;--fs-display-l:62px;--fs-display-m:46px;--fs-h3:28px}

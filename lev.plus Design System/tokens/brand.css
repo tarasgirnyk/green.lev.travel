@@ -1,0 +1,9 @@
+/* Brand helpers that need asset URLs (resolved relative to this file) */
+.lp-lion{-webkit-mask:url('../assets/brand/lion-head.png') center/contain no-repeat;mask:url('../assets/brand/lion-head.png') center/contain no-repeat;background:currentColor}
+.lp-dots{background-image:radial-gradient(rgba(31,58,43,.10) 1px,transparent 1px);background-size:18px 18px}
+[data-theme="night"] .lp-dots,.lp-dots-night{background-image:radial-gradient(rgba(239,232,218,.07) 1px,transparent 1px);background-size:18px 18px}
+
+/* Official lev.plus logo files (supplied by client) */
+.lp-logo{display:inline-block;background:center/contain no-repeat;aspect-ratio:506.625/130;flex:0 0 auto}
+.lp-logo-primary{background-image:url('../assets/brand/lev-plus-primary.svg')}
+.lp-logo-light{background-image:url('../assets/brand/lev-plus-primary-light.svg')}

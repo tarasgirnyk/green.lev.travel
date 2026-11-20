@@ -1,0 +1,32 @@
+services:
+  postgres:
+    image: postgres:17-alpine
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: levplus
+      POSTGRES_PASSWORD: levplus
+      POSTGRES_DB: levplus
+    ports:
+      - '5440:5432'
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+
+  # Продакшн-збірка: docker compose --profile app up -d --build
+  app:
+    profiles: ['app']
+    build: .
+    restart: unless-stopped
+    depends_on:
+      - postgres
+    environment:
+      DATABASE_URL: postgres://levplus:levplus@postgres:5432/levplus
+      PAYLOAD_SECRET: ${PAYLOAD_SECRET:?set PAYLOAD_SECRET}
+      NEXT_PUBLIC_SERVER_URL: ${NEXT_PUBLIC_SERVER_URL:-http://localhost:3500}
+    ports:
+      - '3500:3000'
+    volumes:
+      - media:/app/media
+
+volumes:
+  pgdata:
+  media:

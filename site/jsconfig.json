@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "jsx": "react-jsx",
+    "module": "esnext",
+    "moduleResolution": "bundler",
+    "paths": {
+      "@/*": ["./src/*"],
+      "@payload-config": ["./src/payload.config.js"]
+    }
+  },
+  "exclude": ["node_modules", ".next"]
+}

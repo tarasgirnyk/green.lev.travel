@@ -1,0 +1,11 @@
+import React from 'react';
+import { Badge } from '../core/Badge.jsx';
+import { Button } from '../core/Button.jsx';
+export function HouseCard({name,kind,specs=[],themes=[],image,imagePosition='center',onRequest,featured}){
+return <article style={{display:'flex',flexDirection:'column',background:featured?'var(--surface-inverse)':'var(--surface-card)',color:featured?'var(--text-inverse)':'var(--text-body)',borderRadius:'var(--radius-xl)',border:featured?'none':'1px solid var(--border)',padding:14,fontFamily:'var(--font-body)',height:'100%',boxSizing:'border-box'}}>
+<div style={{aspectRatio:'4/3.4',borderRadius:'var(--radius-arch)',background:'var(--linen-2) url('+image+') '+imagePosition+'/cover',border:'1px solid '+(featured?'rgba(200,162,90,.5)':'var(--border)')}}/>
+<div style={{display:'flex',flexDirection:'column',gap:14,padding:'22px 10px 8px',flex:1}}>
+<div><p style={{margin:0,fontSize:11,fontWeight:800,letterSpacing:'.16em',textTransform:'uppercase',color:featured?'var(--ochre)':'var(--accent-ink)'}}>{kind}</p><h3 style={{margin:'8px 0 0',fontFamily:'var(--font-display)',fontWeight:'var(--fw-display)',fontSize:'var(--fs-h3)',lineHeight:1.05,letterSpacing:'var(--ls-display)',color:featured?'var(--text-inverse)':'var(--text-heading)'}}>{name}</h3></div>
+{specs.length>0&&<ul style={{listStyle:'none',margin:0,padding:0,display:'flex',flexWrap:'wrap',gap:'6px 18px',fontSize:13,color:featured?'var(--text-inverse-muted)':'var(--text-muted)'}}>{specs.map(s=><li key={s}>{s}</li>)}</ul>}
+{themes.length>0&&<div><p style={{margin:'0 0 8px',fontSize:11,fontWeight:700,letterSpacing:'.12em',textTransform:'uppercase',color:featured?'var(--text-inverse-muted)':'var(--text-muted)'}}>Теми інтер'єру</p><div style={{display:'flex',flexWrap:'wrap',gap:6}}>{themes.map(t=><Badge key={t}>{t}</Badge>)}</div></div>}
+<div style={{marginTop:'auto',paddingTop:14,borderTop:'1px solid '+(featured?'var(--border-inverse)':'var(--border)'),display:'flex',alignItems:'center',justifyContent:'space-between',gap:12}}><span style={{fontSize:14}}>Вартість — <b>за запитом</b></span><Button size="sm" variant={featured?'accent':'outline'} icon="arrow" onClick={onRequest}>Запит</Button></div></div></article>;}

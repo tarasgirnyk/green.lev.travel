@@ -1,0 +1,6 @@
+import React from 'react';
+import { Icon } from '../core/Icon.jsx';
+export function Select({label,options=[],value,onChange,tone='light',name,placeholder}){const d=tone==='dark';
+return <label style={{display:'flex',flexDirection:'column',gap:8,fontFamily:'var(--font-body)'}}>{label&&<span style={{fontSize:11,fontWeight:700,letterSpacing:'.12em',textTransform:'uppercase',color:d?'var(--text-inverse-muted)':'var(--text-muted)'}}>{label}</span>}
+<span style={{position:'relative',display:'block'}}><select name={name} value={value} onChange={onChange} defaultValue={value===undefined?'':undefined} style={{width:'100%',height:'var(--input-h)',padding:'0 44px 0 16px',borderRadius:'var(--radius-sm)',border:'1px solid '+(d?'var(--border-inverse)':'var(--border)'),background:d?'rgba(0,0,0,.16)':'var(--surface-card)',color:d?'var(--text-inverse)':'var(--text-body)',font:'inherit',fontSize:15,appearance:'none',WebkitAppearance:'none',outline:'none',cursor:'pointer'}}>{placeholder&&<option value="" disabled>{placeholder}</option>}{options.map(o=><option key={o} value={o} style={{color:'#1C1E1B'}}>{o}</option>)}</select>
+<span style={{position:'absolute',right:16,top:'50%',transform:'translateY(-50%)',pointerEvents:'none',color:'var(--accent)'}}><Icon name="chevron" size={18}/></span></span></label>;}

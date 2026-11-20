@@ -1,0 +1,48 @@
+<!-- @dsCard group="Brand" viewport="1440x1000" name="Brand board" subtitle="Logo concepts, both palettes on hero + cards, type pairs, buttons, icons" -->
+<!DOCTYPE html><html lang="uk"><head><meta charset="utf-8"><title>lev.plus — бренд-борд</title>
+<link rel="stylesheet" href="../styles.css">
+<style>body{margin:0;background:#E4DED2;font-family:var(--font-body);color:var(--graphite)}a{color:var(--forest)}a:hover{color:var(--ochre-ink)}*{box-sizing:border-box}</style>
+<script src="https://unpkg.com/react@18.3.1/umd/react.development.js" integrity="sha384-hD6/rw4ppMLGNu3tX5cjIb+uRZ7UkRJ6BPkLpg4hAu/6onKUg4lLsHAs9EBPT82L" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.development.js" integrity="sha384-u6aeetuaXnQ38mYT8rp6sbXaQe3NL9t+IBXmnYxwkUI2Hw4bsp2Wvmx4yRQF1uAm" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/@babel/standalone@7.29.0/babel.min.js" integrity="sha384-m08KidiNqLdpJqLq95G/LEi8Qvjl/xUYll3QILypMoQ65QorJ9Lvtp2RXYGBFj1y" crossorigin="anonymous"></script>
+<script src="../_ds_bundle.js"></script></head><body><div id="root"></div>
+<script type="text/babel">
+const LP=window.LevPlusDesignSystem_732b9c;const A='../assets';
+const Lbl=({children})=><p style={{margin:'0 0 14px',fontSize:11,fontWeight:800,letterSpacing:'.18em',textTransform:'uppercase',color:'#5C6158'}}>{children}</p>;
+const Tile=({bg,children,style})=><div style={{background:bg,borderRadius:18,padding:28,...style}}>{children}</div>;
+function MarkRow(){const marks=[['seal','A · Печатка','Голова лева з карбованим «+». Основний.'],['cross','B · Хрест','Лев усередині знака «+».'],['arch','C · Арка','Монограма «l+» в арці — мотив вікна будинку.']];
+return <div style={{display:'grid',gridTemplateColumns:'repeat(3,1fr)',gap:16}}>{marks.map(([m,t,d])=><div key={m} style={{display:'grid',gap:10}}>
+<Tile bg="var(--linen)" style={{display:'grid',placeItems:'center',height:220}}><LP.LogoMark mark={m} size={120} ring="var(--linen)"/></Tile>
+<div style={{display:'grid',gridTemplateColumns:'1fr 1fr 1fr',gap:8}}>
+<Tile bg="var(--forest)" style={{padding:16,display:'grid',placeItems:'center'}}><LP.LogoMark mark={m} tone="linen" size={44} ring="var(--forest)"/></Tile>
+<Tile bg="#fff" style={{padding:16,display:'grid',placeItems:'center'}}><LP.LogoMark mark={m} tone="mono-dark" size={44} ring="#fff"/></Tile>
+<Tile bg="var(--graphite)" style={{padding:16,display:'grid',placeItems:'center'}}><LP.LogoMark mark={m} tone="mono-light" size={44} ring="var(--graphite)"/></Tile></div>
+<div><b style={{fontSize:15}}>{t}</b><p style={{margin:'4px 0 0',fontSize:13,color:'#5C6158'}}>{d}</p></div></div>)}</div>;}
+function MiniHero({night}){return <div data-theme={night?'night':undefined} style={{background:'var(--surface-page)',borderRadius:18,overflow:'hidden',display:'grid',gridTemplateColumns:'1.1fr .9fr',minHeight:400}}>
+<div style={{padding:'28px 32px',display:'flex',flexDirection:'column',gap:18}}><LP.Logo tone={night?'night':'forest'} size={30} ring={night?'var(--night-bg)':'var(--linen)'}/>
+<div style={{marginTop:'auto',display:'grid',gap:16}}><LP.SectionLabel tone={night?'light':'default'}>Карпати · будинки під оренду</LP.SectionLabel><h2 style={{margin:0,fontFamily:'var(--font-display)',fontWeight:600,fontSize:42,lineHeight:1,letterSpacing:'-.015em',color:'var(--text-heading)'}}>Ваш капітал — у карпатській нерухомості. <i style={{fontWeight:500,color:'var(--accent-ink)'}}>Ми робимо все інше.</i></h2><div><LP.Button size="sm" icon="arrow">Отримати доступ до проєктів</LP.Button></div></div></div>
+<div style={{position:'relative'}}><div style={{position:'absolute',inset:'20px 20px 0 0',borderRadius:'50% 50% 0 0',background:`url(${A}/imagery/cabin-forest.png) 62% center/cover`,border:'1px solid rgba(200,162,90,.5)'}}/><img src={`${A}/mascot/mascot-cutout.png`} style={{position:'absolute',height:'98%',bottom:'-6%',left:'-4%'}}/></div></div>;}
+function MiniCards({night}){return <div data-theme={night?'night':undefined} style={{background:'var(--surface-page)',borderRadius:18,padding:20,display:'grid',gridTemplateColumns:'.8fr 1.2fr',gap:14}}>
+<LP.HouseCard kind="Два рівні" name="Сімейний" specs={['2 рівні','для сім\'ї']} themes={['Адам і Єва','Пікассо']} image={`${A}/imagery/cabin-forest.png`} featured={!night}/>
+<LP.ProjectCard code="LP-014" name="Ділянка над Опором" location="Сколівщина" status="free" image={`${A}/imagery/cabin-forest.png`} layout="vertical" plot={{area:'0,25 га',note:'світло · вода'}} house={{type:'Сімейний',note:'два рівні'}} checks={['Юридична','Технічна','Ринкова']} figures={[{label:'Кошторис',value:'$96 000',hint:'ліміт +10%'},{label:'Дохід / рік',value:'$11–14k',hint:'прогноз'}]}/></div>;}
+function Palette({title,list}){return <div><Lbl>{title}</Lbl><div style={{display:'flex',borderRadius:14,overflow:'hidden',height:96}}>{list.map(([n,h,fg])=><div key={h} style={{flex:1,background:h,color:fg,padding:12,display:'flex',flexDirection:'column',justifyContent:'flex-end',fontSize:12}}><b>{n}</b><span style={{fontFamily:'ui-monospace,monospace',opacity:.8}}>{h}</span></div>)}</div></div>;}
+const ICONS=['terrain','blueprint','home','key','file','briefcase','cycle','trend','shield','wallet','receipt','team','pin','lock','calendar','mail'];
+function Board(){return <div style={{maxWidth:1360,margin:'0 auto',padding:40,display:'grid',gap:40}}>
+<header style={{display:'flex',justifyContent:'space-between',alignItems:'flex-end'}}><LP.Logo size={56}/><span style={{fontSize:13,color:'#5C6158'}}>Бренд-борд · ребрендинг green.lev.travel · жовтень 2026</span></header>
+<section><Lbl>Знак — 3 варіанти · повний / компактний / монохром світлий і темний</Lbl><MarkRow/>
+<div style={{display:'grid',gridTemplateColumns:'repeat(4,1fr)',gap:10,marginTop:16}}>
+<Tile bg="var(--linen)"><LP.Logo size={40}/></Tile><Tile bg="var(--forest)"><LP.Logo tone="linen" size={40} ring="var(--forest)"/></Tile><Tile bg="var(--night-bg)"><LP.Logo tone="night" size={40} ring="var(--night-bg)"/></Tile><Tile bg="#fff" style={{display:'flex',gap:18,alignItems:'center'}}><LP.LogoMark size={32} ring="#fff"/><div style={{width:32,height:32,borderRadius:8,background:'var(--forest)',display:'grid',placeItems:'center'}}><LP.LogoMark size={22} tone="linen" ring="var(--forest)"/></div><div style={{width:44,height:44,borderRadius:'50%',background:'var(--linen)',display:'grid',placeItems:'center'}}><LP.LogoMark size={30} ring="var(--linen)"/></div><span style={{fontSize:11,color:'#5C6158'}}>favicon · аватар</span></Tile></div></section>
+<section style={{display:'grid',gridTemplateColumns:'1fr 1fr',gap:20}}>
+<div style={{display:'grid',gap:16}}><Palette title="A · Ліс і льон (основна)" list={[['Forest','#1F3A2B','#F2EDE3'],['Moss','#4E6B3A','#F2EDE3'],['Linen','#F2EDE3','#1C1E1B'],['Ochre','#C8A25A','#1C1E1B'],['Graphite','#1C1E1B','#F2EDE3']]}/><MiniHero/><MiniCards/></div>
+<div style={{display:'grid',gap:16}}><Palette title="B · Нічний ліс (кабінет / темна тема)" list={[['Фон','#12241A','#EFE8DA'],['Картки','#1B3326','#EFE8DA'],['Текст','#EFE8DA','#12241A'],['Золото','#C9A35C','#12241A']]}/><MiniHero night/><MiniCards night/></div></section>
+<section style={{display:'grid',gridTemplateColumns:'1fr 1fr',gap:20}}>
+<Tile bg="var(--paper)"><Lbl>Пара 1 · Geologica + Golos Text (рекомендована)</Lbl><div style={{fontFamily:"'Geologica'",fontWeight:600,fontSize:60,lineHeight:1,color:'var(--forest)'}}>Спокій і ясність.</div><p style={{fontFamily:'Golos Text',fontSize:16,lineHeight:1.6,margin:'14px 0 0'}}>Фіксований кошторис з лімітом перевищення +10%. Усе понад це — наш ризик.</p></Tile>
+<Tile bg="var(--paper)"><Lbl>Пара 2 · Unbounded + Onest</Lbl><div style={{fontFamily:'Unbounded',fontWeight:500,fontSize:46,lineHeight:1.02,letterSpacing:'-.035em',color:'var(--forest)'}}>Спокій і ясність.</div><p style={{fontFamily:'Onest',fontSize:16,lineHeight:1.6,margin:'14px 0 0'}}>Фіксований кошторис з лімітом перевищення +10%. Усе понад це — наш ризик.</p></Tile></section>
+<section style={{display:'grid',gridTemplateColumns:'1.2fr .8fr',gap:20}}>
+<Tile bg="var(--linen)"><Lbl>Кнопки</Lbl><div style={{display:'flex',gap:12,flexWrap:'wrap'}}><LP.Button icon="arrow">Отримати доступ до проєктів</LP.Button><LP.Button variant="accent" icon="arrow">Надіслати заявку</LP.Button><LP.Button variant="outline">Як це працює</LP.Button></div>
+<div style={{display:'flex',gap:12,flexWrap:'wrap',marginTop:14,padding:16,borderRadius:12,background:'var(--forest)'}}><LP.Button variant="accent" size="sm" icon="arrow">Запит</LP.Button><LP.Button variant="inverse" size="sm">Паспорт проєкту</LP.Button></div>
+<div data-theme="night" style={{display:'flex',gap:12,flexWrap:'wrap',marginTop:10,padding:16,borderRadius:12,background:'var(--night-bg)'}}><LP.Button size="sm" icon="arrow">Паспорт проєкту</LP.Button><LP.Button size="sm" variant="outline" iconLeft="key">Забронювати ділянку</LP.Button><LP.Badge status="free"/><LP.Badge status="reserved"/></div></Tile>
+<Tile bg="var(--linen)"><Lbl>Іконки · лінія 1.8, 24px</Lbl><div style={{display:'grid',gridTemplateColumns:'repeat(4,1fr)',gap:14}}>{ICONS.map(n=><div key={n} style={{display:'grid',justifyItems:'center',gap:6}}><LP.RoundIcon name={n}/><span style={{fontSize:10,color:'#5C6158'}}>{n}</span></div>)}</div></Tile></section>
+</div>;}
+ReactDOM.createRoot(document.getElementById('root')).render(<Board/>);
+</script></body></html>
