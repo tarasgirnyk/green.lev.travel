@@ -1,0 +1,138 @@
+{
+  "theme": "Гуцулленд",
+  "date": "2026-11-22",
+  "status": "for_review",
+  "paletteReference": "../04-hutsulland-warmer-yellow-v04.png",
+  "requirements": {
+    "sofaAndEntrySeat": "golden yellow, v04",
+    "materials": "emerald, dark brown oak, pale stone/wool, restrained bronze",
+    "roomConnections": "independent bathroom and bedroom doors off studio",
+    "bedroom": "dark brown wardrobe, exactly two small bedside rugs, no large bed rug",
+    "terrace": "whole terrace under ONE fixed full roof, open front/sides, no railings or partition",
+    "outdoorTable": "round wooden table with four emerald chairs",
+    "grill": "beside west end of terrace on separate stone pad",
+    "nightShot": "from terrace into studio with warm practical lighting"
+  },
+  "shots": [
+    {
+      "id": "01",
+      "title": "Підхід до головного входу",
+      "image": "01-front-entrance.png",
+      "prompt": "01-front-entrance-prompt.txt",
+      "method": "built-in image_gen",
+      "references": [
+        "../04-hutsulland-warmer-yellow-v04.png",
+        "../../../concept/layout-variants/single-storey/entry-redesign/walkthrough/09-front-entrance.png"
+      ]
+    },
+    {
+      "id": "02",
+      "title": "Передпокій і жовте сидіння біля шафи",
+      "image": "02-entry-storage.png",
+      "prompt": "02-entry-storage-prompt.txt",
+      "method": "built-in image_gen",
+      "references": [
+        "../04-hutsulland-warmer-yellow-v04.png"
+      ]
+    },
+    {
+      "id": "03",
+      "title": "Кухня-студія від входу — основа v04",
+      "image": "03-studio-from-entry.png",
+      "prompt": "../04-hutsulland-warmer-yellow-v04-prompt.txt",
+      "method": "copy of existing v04",
+      "references": [
+        "../04-hutsulland-warmer-yellow-v04.png"
+      ]
+    },
+    {
+      "id": "04",
+      "title": "Що видно з дивана",
+      "image": "04-sofa-to-tv.png",
+      "prompt": "04-sofa-to-tv-prompt.txt",
+      "method": "built-in image_gen",
+      "references": [
+        "../04-hutsulland-warmer-yellow-v04.png",
+        "../../Бджілка і жолудь/walkthrough-v02/00-layout-technical-v04.png"
+      ]
+    },
+    {
+      "id": "05",
+      "title": "Вхід у ванну кімнату",
+      "image": "05-bathroom-door.png",
+      "prompt": "05-bathroom-door-prompt.txt",
+      "method": "built-in image_gen",
+      "references": [
+        "../04-hutsulland-warmer-yellow-v04.png",
+        "06-bathroom-interior.png"
+      ]
+    },
+    {
+      "id": "06",
+      "title": "Ванна кімната зсередини",
+      "image": "06-bathroom-interior.png",
+      "prompt": "06-bathroom-interior-prompt.txt",
+      "method": "built-in image_gen",
+      "references": [
+        "../04-hutsulland-warmer-yellow-v04.png",
+        "../../Бджілка і жолудь/walkthrough-v02/00-layout-technical-v04.png"
+      ]
+    },
+    {
+      "id": "07",
+      "title": "Вхід у спальню",
+      "image": "07-bedroom-door-corrected-v02.png",
+      "prompt": "07-bedroom-door-corrected-v02-prompt.txt",
+      "method": "built-in image_gen",
+      "references": [
+        "../04-hutsulland-warmer-yellow-v04.png",
+        "08-bedroom-interior.png"
+      ]
+    },
+    {
+      "id": "08",
+      "title": "Спальня",
+      "image": "08-bedroom-interior.png",
+      "prompt": "08-bedroom-interior-prompt.txt",
+      "method": "built-in image_gen",
+      "references": [
+        "../04-hutsulland-warmer-yellow-v04.png",
+        "../../Бджілка і жолудь/walkthrough-v02/00-layout-technical-v04.png"
+      ]
+    },
+    {
+      "id": "09",
+      "title": "Уся накрита тераса й мангал збоку",
+      "image": "09-covered-terrace-bedroom-match-v02.png",
+      "prompt": "09-covered-terrace-bedroom-match-v02-prompt.txt",
+      "method": "built-in image_gen",
+      "references": [
+        "09-covered-terrace.png",
+        "08-bedroom-interior.png"
+      ]
+    },
+    {
+      "id": "10",
+      "title": "З тераси на мангальну зону",
+      "image": "10-bbq-from-terrace-corrected-v02.png",
+      "prompt": "10-bbq-from-terrace-corrected-v02-prompt.txt",
+      "method": "built-in image_gen",
+      "references": [
+        "../04-hutsulland-warmer-yellow-v04.png",
+        "09-covered-terrace-bedroom-match-v02.png"
+      ]
+    },
+    {
+      "id": "11",
+      "title": "Уночі з тераси в кімнату",
+      "image": "11-night-from-terrace.png",
+      "prompt": "11-night-from-terrace-prompt.txt",
+      "method": "built-in image_gen",
+      "references": [
+        "../04-hutsulland-warmer-yellow-v04.png",
+        "09-covered-terrace.png"
+      ]
+    }
+  ],
+  "notes": "Conceptual generative views, not measured working drawings; minor decor/proportion differences may remain. Prior attempts retained separately; current gallery uses corrected doorway/terrace/grill frames."
+}
