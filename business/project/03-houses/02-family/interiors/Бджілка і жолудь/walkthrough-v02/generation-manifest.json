@@ -1,0 +1,139 @@
+{
+  "date": "2026-11-22",
+  "theme": "Бджілка і жолудь",
+  "status": "ready_for_review",
+  "requirements": {
+    "terraceRoof": "One continuous fixed roof over entire terrace",
+    "terraceEdges": "Open front and sides, no partition or railing",
+    "terraceTable": "Round solid wood table for four",
+    "grill": "Beside terrace, visible from seats",
+    "bedroomRugs": "Exactly two small olive oak-leaf bedside rugs; no large bed rug",
+    "bedroomWardrobe": "Warm brown carved oak in interior and exterior view"
+  },
+  "dimensions": {
+    "house": "7 × 7 m, preliminary assumption from earlier concept",
+    "terrace": "7 × 3 m, preliminary assumption from earlier concept",
+    "status": "Not measured or newly approved"
+  },
+  "currentPlan": "00-layout-technical-v04.png",
+  "rugReference": "https://lorenacanals.com/fr/products/washable-rug-mini-monstera-olive?variant=46736224026961",
+  "rugInterpretation": "Original oak-leaf motif approximately 60 × 90 cm; specific retail product not selected",
+  "shots": [
+    {
+      "id": "01",
+      "title": "Схема розміщення зверху",
+      "image": "00-layout-technical-v04.png",
+      "vector": "00-layout-technical-v04.svg",
+      "source": "draw-layout-v04.cjs",
+      "method": "Deterministic SVG; sharp PNG rendering"
+    },
+    {
+      "id": "02",
+      "title": "Підхід і окремий головний вхід",
+      "image": "02-front-entrance.png",
+      "prompt": "02-front-entrance-prompt.txt",
+      "method": "built-in image_gen",
+      "references": [
+        "concept/layout-variants/single-storey/entry-redesign/walkthrough/09-front-entrance.png",
+        "interiors/Бджілка і жолудь/01-studio-entry-v01.png"
+      ]
+    },
+    {
+      "id": "03",
+      "title": "Вхід у кухню-студію",
+      "image": "03-studio-from-entry.png",
+      "prompt": "03-studio-from-entry-prompt.txt",
+      "method": "built-in image_gen",
+      "references": [
+        "interiors/Бджілка і жолудь/01-studio-entry-v01.png",
+        "concept/layout-variants/single-storey/walkthrough/08-covered-terrace.png"
+      ]
+    },
+    {
+      "id": "04",
+      "title": "Як заходимо в санвузол",
+      "image": "04-bathroom-entrance.png",
+      "prompt": "04-bathroom-entrance-prompt.txt",
+      "method": "built-in image_gen",
+      "references": [
+        "interiors/Бджілка і жолудь/01-studio-entry-v01.png",
+        "interiors/Бджілка і жолудь/walkthrough-v02/05-bathroom-interior.png"
+      ]
+    },
+    {
+      "id": "05",
+      "title": "Санвузол зсередини",
+      "image": "05-bathroom-interior.png",
+      "prompt": "05-bathroom-interior-prompt.txt",
+      "method": "built-in image_gen",
+      "references": [
+        "interiors/Бджілка і жолудь/01-studio-entry-v01.png"
+      ]
+    },
+    {
+      "id": "06",
+      "title": "Вхід у спальню — без великого килима",
+      "image": "06-bedroom-entrance-small-rugs-v02.png",
+      "prompt": "06-bedroom-entrance-small-rugs-v02-prompt.txt",
+      "method": "built-in image_gen",
+      "references": [
+        "06-bedroom-entrance.png",
+        "07-bedroom-two-small-rugs-v02.png"
+      ]
+    },
+    {
+      "id": "07",
+      "title": "Спальня — два маленькі килимки",
+      "image": "07-bedroom-two-small-rugs-v02.png",
+      "prompt": "07-bedroom-two-small-rugs-v02-prompt.txt",
+      "method": "built-in image_gen",
+      "references": [
+        "07-bedroom-interior.png"
+      ]
+    },
+    {
+      "id": "08",
+      "title": "Що бачимо з дивана",
+      "image": "08-view-from-sofa-round-table-v02.png",
+      "prompt": "08-view-from-sofa-round-table-v02-prompt.txt",
+      "method": "built-in image_gen",
+      "references": [
+        "08-view-from-sofa.png",
+        "00-layout-technical-v04.png"
+      ]
+    },
+    {
+      "id": "09",
+      "title": "Вихід зі студії на терасу — круглий стіл",
+      "image": "09-terrace-exit-round-table-v02.png",
+      "prompt": "09-terrace-exit-round-table-v02-prompt.txt",
+      "method": "built-in image_gen",
+      "references": [
+        "09-terrace-exit.png",
+        "00-layout-technical-v04.png"
+      ]
+    },
+    {
+      "id": "10",
+      "title": "Уся тераса — коричнева шафа у спальні",
+      "image": "10-covered-terrace-brown-wardrobe-v03.png",
+      "prompt": "10-covered-terrace-brown-wardrobe-v03-prompt.txt",
+      "method": "built-in image_gen",
+      "references": [
+        "10-covered-terrace.png",
+        "07-bedroom-two-small-rugs-v02.png"
+      ]
+    },
+    {
+      "id": "11",
+      "title": "Мангальна зона з тераси",
+      "image": "11-bbq-area.png",
+      "prompt": "11-bbq-area-prompt.txt",
+      "method": "built-in image_gen",
+      "references": [
+        "interiors/Бджілка і жолудь/walkthrough-v02/10-covered-terrace.png",
+        "interiors/Бджілка і жолудь/walkthrough-v02/09-terrace-exit.png"
+      ]
+    }
+  ]
+}

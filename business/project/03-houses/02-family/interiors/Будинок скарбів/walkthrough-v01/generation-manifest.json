@@ -1,0 +1,138 @@
+{
+  "theme": "Будинок скарбів",
+  "date": "2026-11-22",
+  "status": "for_review",
+  "selectionStatus": "awaiting_selection",
+  "reviewDate": "2026-11-23",
+  "preserveAllSketches": true,
+  "palette": "pearl white, azure, navy, pale wood, satin brass",
+  "master": "../01-treasure-house-blue-white-studio-v01.png",
+  "requirements": {
+    "layout": "same square one-storey cabin, independent bathroom and bedroom doors from studio",
+    "bathroom": "shower, white WC, navy vanity, white/blue wave tile, brass",
+    "bedroom": "azure headboard, white/navy wardrobe, exactly two small ivory/navy bedside rugs",
+    "terrace": "one full-width full-depth fixed roof, open front and sides, no fence or partition",
+    "outdoorTable": "round pale wood/white table, four white chairs with blue cushions",
+    "grill": "beside west end on separate stone pad, under own open canopy",
+    "night": "view from covered terrace into studio, warm-white practical lighting"
+  },
+  "shots": [
+    {
+      "id": "01",
+      "title": "Головний вхід із двору",
+      "image": "01-front-entrance.png",
+      "prompt": "01-front-entrance-prompt.txt",
+      "method": "built-in image_gen",
+      "references": [
+        "../01-treasure-house-blue-white-studio-v01.png",
+        "../../../concept/layout-variants/single-storey/entry-redesign/walkthrough/09-front-entrance.png"
+      ]
+    },
+    {
+      "id": "02",
+      "title": "Передпокій і блакитне сидіння",
+      "image": "02-entry-storage.png",
+      "prompt": "02-entry-storage-prompt.txt",
+      "method": "built-in image_gen",
+      "references": [
+        "../01-treasure-house-blue-white-studio-v01.png"
+      ]
+    },
+    {
+      "id": "03",
+      "title": "Кухня-студія від входу",
+      "image": "03-studio-from-entry.png",
+      "prompt": "../01-treasure-house-blue-white-studio-v01-prompt.txt",
+      "method": "copy of existing master",
+      "references": [
+        "../01-treasure-house-blue-white-studio-v01.png"
+      ]
+    },
+    {
+      "id": "04",
+      "title": "Що видно з дивана",
+      "image": "04-sofa-to-tv.png",
+      "prompt": "04-sofa-to-tv-prompt.txt",
+      "method": "built-in image_gen",
+      "references": [
+        "../01-treasure-house-blue-white-studio-v01.png"
+      ]
+    },
+    {
+      "id": "05",
+      "title": "Вхід у ванну кімнату",
+      "image": "05-bathroom-door.png",
+      "prompt": "05-bathroom-door-prompt.txt",
+      "method": "built-in image_gen",
+      "references": [
+        "../01-treasure-house-blue-white-studio-v01.png",
+        "06-bathroom-interior.png"
+      ]
+    },
+    {
+      "id": "06",
+      "title": "Ванна кімната",
+      "image": "06-bathroom-interior.png",
+      "prompt": "06-bathroom-interior-prompt.txt",
+      "method": "built-in image_gen",
+      "references": [
+        "../01-treasure-house-blue-white-studio-v01.png"
+      ]
+    },
+    {
+      "id": "07",
+      "title": "Вхід у спальню",
+      "image": "07-bedroom-door.png",
+      "prompt": "07-bedroom-door-prompt.txt",
+      "method": "built-in image_gen",
+      "references": [
+        "../01-treasure-house-blue-white-studio-v01.png",
+        "08-bedroom-interior.png"
+      ]
+    },
+    {
+      "id": "08",
+      "title": "Спальня",
+      "image": "08-bedroom-interior.png",
+      "prompt": "08-bedroom-interior-prompt.txt",
+      "method": "built-in image_gen",
+      "references": [
+        "../01-treasure-house-blue-white-studio-v01.png"
+      ]
+    },
+    {
+      "id": "09",
+      "title": "Зовнішній вигляд накритої тераси",
+      "image": "09-covered-terrace.png",
+      "prompt": "09-covered-terrace-prompt.txt",
+      "method": "built-in image_gen",
+      "references": [
+        "../01-treasure-house-blue-white-studio-v01.png",
+        "08-bedroom-interior.png"
+      ]
+    },
+    {
+      "id": "10",
+      "title": "З тераси на мангал",
+      "image": "10-bbq-from-terrace.png",
+      "prompt": "10-bbq-from-terrace-prompt.txt",
+      "method": "built-in image_gen",
+      "references": [
+        "../01-treasure-house-blue-white-studio-v01.png",
+        "09-covered-terrace.png"
+      ]
+    },
+    {
+      "id": "11",
+      "title": "Нічний вигляд із тераси",
+      "image": "11-night-from-terrace.png",
+      "prompt": "11-night-from-terrace-prompt.txt",
+      "method": "built-in image_gen",
+      "references": [
+        "../01-treasure-house-blue-white-studio-v01.png",
+        "09-covered-terrace.png"
+      ]
+    }
+  ],
+  "notes": "Conceptual generative views for discussion, not measured construction drawings. Fine proportions and decor may differ across views; precise dimensions and furniture/fixtures have not been specified."
+}
